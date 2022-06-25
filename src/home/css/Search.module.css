@@ -1,0 +1,21 @@
+.searchbar{
+    margin-top:2vh;
+    margin-bottom: 0.5vh;
+    display:flex;
+    width:90%;
+  }
+  .search{
+    font-family:'GmarketSansLight';
+    border-style:solid;
+    padding: 10px;
+    border-radius:10px;
+    width:100%;
+    border-width: 2px;
+    background-color: white;
+    color:rgb(117, 117, 117);
+    height: 2.5vh;
+  }
+  .link{
+    width:100%;
+    text-decoration:none;
+  }

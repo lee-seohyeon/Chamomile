@@ -1,0 +1,24 @@
+nav{
+    background-color: white;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-style: solid;
+    width:100%;
+    border-width:1px;
+}
+.home,.location,.search,.heart,.mypage{
+    font-size:2vw;
+    padding-top: 3vw;
+    padding-bottom:3vw;
+    flex-basis: 20%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
