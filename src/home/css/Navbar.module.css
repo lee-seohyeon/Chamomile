@@ -3,7 +3,7 @@ nav{
     position:fixed;
     bottom:0;
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-top-style: solid;
     width:100%;
@@ -11,8 +11,8 @@ nav{
 }
 .home,.location,.search,.heart,.mypage{
     font-size:2vw;
-    padding-top: 4vw;
-    padding-bottom:4vw;
+    padding-top: 2vh;
+    padding-bottom:1vh;
     flex-basis: 20%;
     display:flex;
     align-items: center;

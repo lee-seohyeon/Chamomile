@@ -1,0 +1,13 @@
+.link{
+    text-decoration: none;
+}
+header{
+    display:flex;
+    font-size:6vw;
+    justify-content: space-between;
+}
+section{
+    margin-top: 2vh;
+    display:flex;
+    justify-content: space-between;
+}
