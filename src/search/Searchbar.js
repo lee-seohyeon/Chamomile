@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react';
 import styles from './css/Searchbar.module.css';
-function Searchbar(){
+import {Link} from 'react-router-dom';
+function Searchbar({place}){
+    if (place===""){
+        place="지금먹고싶은디저트는?";
+    }
     const [text,settext]=useState('');
     useEffect(()=>{
         console.log(text);
@@ -10,16 +14,14 @@ function Searchbar(){
     }
     return (
         <div className={styles.container}>
-        <form className={styles.searchbar}>
+        <div className={styles.searchbar}>
         <input className={styles.search}
-        placeholder="지금먹고싶은디저트는?"
+        placeholder={place}
         value={text}
         onChange={change}
         autoFocus></input>
-        <input
-        className={styles.submit}
-        value="search"
-        type="submit"></input></form>
+        <Link to={`/result/${text}`} className={styles.link}>
+        <button className={styles.submit}>Submit</button></Link></div>
     </div>
     );
 }

@@ -11,14 +11,17 @@ nav{
 }
 .home,.location,.search,.heart,.mypage{
     font-size:2vw;
-    padding-top: 3vw;
-    padding-bottom:3vw;
+    padding-top: 4vw;
+    padding-bottom:4vw;
     flex-basis: 20%;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    border-style: solid;
+    border-width:1px;
 }
 .link{
     text-decoration: none;
     color:black;
+    flex-basis: 20%;
 }

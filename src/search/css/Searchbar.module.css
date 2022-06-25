@@ -1,23 +1,30 @@
 .searchbar{
     margin-top:2vh;
     margin-bottom: 0.5vh;
+    height: 5vh;
     display:flex;
-    width:80%;
+    width:95%;
   }
   .search{
     font-family:'GmarketSansLight';
     border-style:solid;
     padding: 10px;
+    font-size: 2vh;
     border-radius:10px;
     width:100%;
     color:darkgray;
   }
   .submit{
+    height: 100%;
+    padding: 10px;
     border-radius:10px;
     background-color:white;
     border-width: 1.5px;
-    font-size:0.5rem;
+    font-size:1.5vh;
   }
   .container{
     width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }

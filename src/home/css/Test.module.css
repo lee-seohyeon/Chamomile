@@ -8,3 +8,14 @@
     margin-top : 3vw;
     background-color: white;
   }
+.mbtitest,.random{
+  flex-basis:45%;
+  margin:3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style:solid;
+  width: 90%;
+  border-width:1px;
+  border-radius:10px;
+}

@@ -1,0 +1,19 @@
+.container{
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-width: 1px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 1vh;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.review,.heart,.reach,.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    font-size:1.7vh;
+}

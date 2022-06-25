@@ -16,6 +16,7 @@
     height: 2.5vh;
   }
   .link{
+    display:flex;
     width:100%;
     text-decoration:none;
   }
