@@ -1,0 +1,12 @@
+.inputdata{
+    width: 100%;
+    font-family:'GmarketSansLight';
+    font-size:1vw;
+    padding: 2vw;
+    margin:0.2vw;
+    width:80%;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: #F9E183 ;;
+}

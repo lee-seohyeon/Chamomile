@@ -1,15 +1,12 @@
 .category{
     display:grid;
-    padding: 3vw;
+    padding-top: 3vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr 1fr ;
-    /* background-color: white; */
+    grid-template-rows:1fr 1fr 1fr;
     width: 90%;
-    height: 50vh;
-    margin-top : 3vw;
   }
   .option{
-    font-size:2vh;
+    font-size:1.2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
