@@ -6,7 +6,7 @@
     width: 90%;
     height: 20vh;
     margin-top : 3vw;
-    background-color: white;
+    margin-bottom : 3vw;
   }
 .mbtitest,.random{
   flex-basis:45%;
@@ -18,4 +18,5 @@
   width: 90%;
   border-width:1px;
   border-radius:10px;
+  background-color: white;
 }
