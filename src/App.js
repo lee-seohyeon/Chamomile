@@ -4,6 +4,7 @@ import Searchwindow from './search/Searchwindow';
 import Result from './result/Result';
 import Heart from './heart/Heart';
 import Mypage from './mypage/Mypage';
+import Login from './mypage/Login';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route element={<Searchwindow/>}path="/search"></Route>
       <Route element={<Heart/>} path="/heart"></Route>
       <Route element={<Mypage/>} path="/mypage"></Route>
+      <Route element={<Login/>} path="/login"></Route>
       </Routes>
     </BrowserRouter>
   );
