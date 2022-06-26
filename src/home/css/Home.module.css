@@ -19,4 +19,9 @@ header{
   align-items: center;
   justify-content: center;
   font-size:5vw;
+  font-family: 'yg-jalnan';
+  color:rgb(255, 238, 0);
+  /* text-shadow: 3px 0 rgb(0, 0, 0), 0 3px rgb(0, 0, 0), 3px 0 rgb(0, 0, 0), 0 3px rgb(0, 0, 0); */
+  text-shadow: 1px 1px 5px #000;
+
 }
