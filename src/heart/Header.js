@@ -5,10 +5,10 @@ function Header(){
         window.history.back();
     }
     return (
-        <div>
+        <div className={styles.container}>
             <header>
-                <div className={styles.back}
-                onClick={back}>⇦</div>
+                <button className={styles.back}
+                onClick={back}>⇦</button>
                 <div className={styles.title}>찜한목록</div>
                 <Link to="/" className={styles.link}><div className={styles.home}>🏠</div></Link>
             </header>

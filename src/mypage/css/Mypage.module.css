@@ -3,14 +3,32 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    width:100%;
 }
-
-header{
+.title{
+    width:100%;
+    font-size:6vw;
     display:flex;
     justify-content: center;
     align-items: center;
 }
-
-.title{
-    font-size:5vw;
+.login{
+    padding-left:10vw;
+    padding-right:10vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3vw;
+    border-style:solid;
+    border-radius:10px;
+    background-color:white;
+    border-width:2px;
+    margin-top:3vh;
+    margin-bottom: 3vh;
+}
+.link{
+    text-decoration: none;
+    color:black;
 }
