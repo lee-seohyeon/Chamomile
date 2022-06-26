@@ -1,4 +1,3 @@
-import Navbar from "../home/Navbar";
 
 function Mypage(){
     return (

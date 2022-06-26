@@ -1,5 +1,6 @@
 .category{
     display:grid;
+    padding: 3vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr 1fr ;
     background-color: white;
@@ -8,8 +9,12 @@
     margin-top : 3vw;
   }
   .option{
-    font-size:2vw;
+    font-size:2vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .img{
+    width:50%;
   }

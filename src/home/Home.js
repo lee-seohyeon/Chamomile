@@ -1,4 +1,4 @@
-import styles from './css/App.module.css';
+import styles from './css/Home.module.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Search from './Search';
@@ -9,7 +9,8 @@ function Home() {
     <div className={styles.container}>
       <header>
         <div className={styles.title}>
-        카모마일
+        <img src={require("./img/main.png")} alt="카모"/>
+        <div className={styles.titletext}>카모마일</div>
         </div>
       </header>
       <Search></Search>
