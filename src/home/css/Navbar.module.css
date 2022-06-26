@@ -8,10 +8,11 @@
     align-items: center;
     border-top-style: solid;
     border-width:1px;
+    flex-direction: column;
 }
 .home,.location,.search,.heart,.mypage{
-    font-size:2vw;
-    padding-top: 2vh;
+    font-size:1.3vw;
+    padding-top:0.4vh;
     padding-bottom:1vh;
     display:flex;
     align-items: center;
@@ -21,5 +22,24 @@
 .link{
     text-decoration: none;
     color:black;
-    flex-basis: 20%;
+    display:flex;
+    flex-basis: 19%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width:25px;
+    padding-top:5px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    border-width:1px;
+}
+
+.navitem{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width:100%
 }
