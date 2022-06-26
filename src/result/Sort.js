@@ -1,4 +1,5 @@
 import styles from './css/Sort.module.css';
+import Filter from './Filter';
 function Sort(){
     const bold=(e)=>{
         e.target.style.fontWeight="900";
@@ -14,6 +15,7 @@ function Sort(){
         onClick={bold}>찜순</div>
         <div className={styles.price}
         onClick={bold}>가격낮은순</div>
+        <Filter className={styles.filter}></Filter>
         </div>
         );
 }
