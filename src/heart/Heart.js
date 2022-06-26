@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Navbar from "../home/Navbar";
+import Navbar from "../nav/Navbar";
 import styles from "./css/Heart.module.css"
 function Heart(){
     return(

@@ -1,14 +1,14 @@
 .content{
     color: brown;
     border-color: black;
-    padding-left:10vw;
-    padding-right:10vw;
+    padding-left:100px;
+    padding-right:100px;
     padding-top:2vh;
     padding-bottom:2vh;
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size:2vw;
+    font-size:3vw;
     border-style:solid;
     border-radius:10px;
     background-color:white;

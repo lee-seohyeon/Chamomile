@@ -14,11 +14,9 @@ function Input({data}){
         place="비밀번호 확인";
     }
     return(
-        <div>
             <input
             placeholder={place}
             className={styles.inputdata}></input>
-        </div>
     );
 }
 export default Input;
