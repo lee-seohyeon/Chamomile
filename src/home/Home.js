@@ -1,5 +1,5 @@
 import styles from './css/Home.module.css';
-import Navbar from './Navbar';
+import Navbar from '../nav/Navbar';
 import Footer from './Footer';
 import Search from './Search';
 import Category from './Category';

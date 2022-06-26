@@ -7,7 +7,6 @@ function Footer(){
         <div className={styles.footermenu}>이용약관</div>
         <div className={styles.footermenu}>내 가게 등록하기</div>
       </div>
-
     </div>
       );
 }

@@ -1,5 +1,5 @@
 import styles from './css/Mypage.module.css';
-import Navbar from "../home/Navbar";
+import Navbar from "../nav/Navbar";
 import Mypagemenu from './Mypagemenu';
 import {Link} from 'react-router-dom';
 
