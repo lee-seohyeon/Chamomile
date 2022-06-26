@@ -1,0 +1,7 @@
+.container{
+    display:flex;
+}
+.map{
+    width:40vw;
+    height:40vh;
+} 

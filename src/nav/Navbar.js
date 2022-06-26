@@ -9,8 +9,7 @@ function Navbar(){
                     <img src={require(`${path}home.png`)} className={styles.img} alt="홈"></img>
                     <div className={styles.home}>홈</div>
                 </Link>
-
-                <Link to="/" className={styles.link}>
+                <Link to="/location" className={styles.link}>
                     <img src={require(`${path}near.png`)} className={styles.img} alt="홈"></img>
                     <div className={styles.location}>내주변</div>
                 </Link>
