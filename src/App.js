@@ -5,7 +5,7 @@ import Result from './result/Result';
 import Heart from './heart/Heart';
 import Mypage from './mypage/Mypage';
 import Login from './login/Login'
-
+import Location from './location/Location';
 function App() {
   return (
   <BrowserRouter>
@@ -16,6 +16,7 @@ function App() {
       <Route element={<Heart/>} path="/heart"></Route>
       <Route element={<Mypage/>} path="/mypage"></Route>
       <Route element={<Login/>} path="/login"></Route>
+      <Route element={<Location/>} path="/location"></Route>
       </Routes>
     </BrowserRouter>
   );
