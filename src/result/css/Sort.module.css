@@ -10,7 +10,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.review,.heart,.reach,.price {
+.review,.heart,.reach,.price, .filter{
     display: flex;
     justify-content: center;
     align-items: center;

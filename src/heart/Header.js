@@ -19,6 +19,7 @@ function Header(){
                     <option>가격순</option>
                 </select>
             </section>
+            <hr></hr>
         </div>
     );
 }
