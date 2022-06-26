@@ -1,14 +1,11 @@
 import styles from "./css/header.module.css";
 import {Link} from "react-router-dom";
+import Back from "../back/Back";
 function Header(){
-    const back=()=>{
-        window.history.back();
-    }
     return (
         <div className={styles.container}>
             <header>
-                <button className={styles.back}
-                onClick={back}>⇦</button>
+                <Back></Back>
                 <div className={styles.title}>찜한목록</div>
                 <Link to="/" className={styles.link}><div className={styles.home}>🏠</div></Link>
             </header>

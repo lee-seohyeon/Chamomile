@@ -4,7 +4,7 @@ import Searchwindow from './search/Searchwindow';
 import Result from './result/Result';
 import Heart from './heart/Heart';
 import Mypage from './mypage/Mypage';
-import Login from './mypage/Login';
+import Login from './login/Login'
 
 function App() {
   return (

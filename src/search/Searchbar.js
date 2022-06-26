@@ -30,7 +30,7 @@ function Searchbar({place}){
         onKeyDown={enter}
         autoFocus></input>
         <Link to={`/result/${text}`} className={styles.link}>
-        <button className={styles.submit}>Submit</button></Link></div>
+        <button className={styles.submit}>🔍</button></Link></div>
     </div>
     );
 }
