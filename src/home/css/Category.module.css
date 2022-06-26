@@ -3,7 +3,7 @@
     padding: 3vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr 1fr ;
-    background-color: white;
+    /* background-color: white; */
     width: 90%;
     height: 50vh;
     margin-top : 3vw;
@@ -14,7 +14,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-right: 5px;
   }
+
   .img{
     width:50%;
+    padding:5px;
   }
