@@ -1,17 +1,30 @@
 .content{
-    color: brown;
+    color: rgb(0, 0, 0);
     border-color: black;
-    padding-left:100px;
-    padding-right:100px;
     padding-top:2vh;
     padding-bottom:2vh;
     display:flex;
-    justify-content: center;
     align-items: center;
-    font-size:3vw;
-    border-style:solid;
+    font-size:2vw;
     border-radius:10px;
-    background-color:white;
     border-width:2px;
-    margin-top: 2vh;
+
+    width:100%;
+    padding-right: 100px;
+}
+
+.img{
+    width:3vw;
+    border-radius:5px;
+    padding:6px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    padding-right: 90px;
 }
