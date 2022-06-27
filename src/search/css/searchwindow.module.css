@@ -1,9 +1,9 @@
 .container{
     background-image:url("../../../public/background.png");
-    padding-bottom:100vh;
     padding-left:3px;
     padding-right:3px;
     padding-top:10px;
+    height:100vh;
 }
 .searchwindow{
     width:100%;
