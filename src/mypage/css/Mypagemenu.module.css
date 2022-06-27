@@ -23,8 +23,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;;
     background-color: white;
     margin-bottom: 10px;
     border-radius: 40px;
     padding-right: 90px;
+}
+.menu img{
+    padding: 20px;
 }
