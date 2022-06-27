@@ -1,28 +1,29 @@
 .content{
     color: rgb(0, 0, 0);
     border-color: black;
-    padding-left:100px;
-    padding-right:100px;
     padding-top:2vh;
     padding-bottom:2vh;
     display:flex;
     align-items: center;
     font-size:2vw;
     border-radius:10px;
-    background-color:white;
     border-width:2px;
-    margin-top: 2vh;
+
+    width:100%;
+    padding-right: 100px;
 }
 
 .img{
-    width:30px;
-    height: 30px;
-    background-color: white;
+    width:3vw;
     border-radius:5px;
+    padding:6px;
 }
 
 .menu{
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 40px;
 }
