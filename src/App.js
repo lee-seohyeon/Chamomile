@@ -6,6 +6,7 @@ import Heart from './heart/Heart';
 import Mypage from './mypage/Mypage';
 import Login from './login/Login'
 import Location from './location/Location';
+// import Join from './join/Join';
 function App() {
   return (
   <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
       <Route element={<Mypage/>} path="/mypage"></Route>
       <Route element={<Login/>} path="/login"></Route>
       <Route element={<Location/>} path="/location"></Route>
+      {/* <Route element={<Join/>} path="/join"></Route> */}
       </Routes>
     </BrowserRouter>
   );

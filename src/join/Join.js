@@ -2,7 +2,7 @@ import Back from "../back/Back";
 import styles from "./css/Join.module.css";
 import Input from "./Input";
 import Snsjoin from "./Snsjoin";
-function Login(){
+function Join(){
     return(
         <div className={styles.container}>
             <div className={styles.head}>

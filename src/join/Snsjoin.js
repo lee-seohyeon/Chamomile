@@ -1,5 +1,5 @@
 import styles from "./css/Snsjoin.module.css";
-function Snslogin(){
+function Snsjoin(){
     const path='./img/';
     return(
     <div>
