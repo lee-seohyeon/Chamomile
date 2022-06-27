@@ -1,0 +1,17 @@
+.around{
+    border-style:solid;
+    border-radius: 25px;
+    border-width: 0.1px;
+    padding: 3px;
+    margin:10px;
+}
+.text{
+    font-size:15px;
+    text-align:center;
+}
+.img{
+    padding:5px;
+}
+.img img{
+    width:200px;
+}
