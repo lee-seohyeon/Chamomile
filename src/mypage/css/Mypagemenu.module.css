@@ -1,5 +1,5 @@
 .content{
-    color: brown;
+    color: rgb(0, 0, 0);
     border-color: black;
     padding-left:100px;
     padding-right:100px;
@@ -8,8 +8,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size:3vw;
-    border-style:solid;
+    font-size:2vw;
     border-radius:10px;
     background-color:white;
     border-width:2px;

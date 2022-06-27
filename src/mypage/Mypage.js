@@ -8,7 +8,7 @@ function Mypage(){
         <div className={styles.container}>
         {/* 여기 안에만 넣자 */}
                 <div className={styles.title}>마이페이지다</div>
-                <Link to= "/login" className={styles.link}><div className={styles.login}>로그인</div></Link>
+                <Link to= "/login" className={styles.link}><div className={styles.login}>로그인/회원가입</div></Link>
                 <Navbar></Navbar>
                 <Mypagemenu></Mypagemenu>
         {/* 여기 안에만 넣자 */}
