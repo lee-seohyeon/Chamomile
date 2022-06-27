@@ -6,14 +6,15 @@
   }
   .search{
     font-family:'GmarketSansLight';
-    border-style:solid;
     padding: 10px;
-    border-radius:10px;
+    border-radius:30px;
     width:100%;
     border-width: 2px;
     background-color: white;
     color:rgb(117, 117, 117);
     height: 2.5vh;
+    display:flex;
+    justify-content: space-between;
   }
   .link{
     display:flex;
