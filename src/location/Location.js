@@ -8,6 +8,7 @@ function Location(){
         {title : "할리스 커피", img:"https://health.chosun.com/fileupload/healthcare_news/mdtoday_202103/20210315140214_20210315115050_604ecb8aae419_1.jpg"}
     ];
     return (
+        <div className={styles.background}>
         <div className={styles.container}>
             <div className={styles.title}>내위치</div>
             <hr></hr>
@@ -23,6 +24,7 @@ function Location(){
             }
             </div>
         </div>
+    </div>
     );
 }
 export default Location;

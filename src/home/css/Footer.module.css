@@ -1,5 +1,8 @@
 .footer{
-    margin-bottom: 20vw;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10vh;
+    background-color: #F9E183 ;
   }
 .footermenu{
     font-size:15px;
@@ -15,4 +18,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .join{
+    border-style:solid;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;;
+    padding: 10px;
+    border-width: 1px;
   }
