@@ -1,8 +1,8 @@
 .searchbar{
     display:flex;
     width:95%;
-  }
-  .search{
+}
+.search{
     font-family:'GmarketSansLight';
     border-style:hidden;
     padding: 9px;
@@ -11,6 +11,7 @@
     width:100%;
     height:20%;
     color:darkgray;
+    text-decoration:none;
 }
 .submit{
     height:100%;

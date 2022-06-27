@@ -6,9 +6,8 @@
   }
   .search{
     font-family:'GmarketSansLight';
-    border-style:solid;
     padding: 10px;
-    border-radius:10px;
+    border-radius:30px;
     width:100%;
     border-width: 2px;
     background-color: white;
