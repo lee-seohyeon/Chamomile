@@ -5,7 +5,7 @@ function Searchwindow(){
         window.history.back();
     }
     return (
-        <div>
+        <div className={styles.container}>
         <button className={styles.x}
             onClick={back}>X</button>
         <div className={styles.searchwindow}>

@@ -4,7 +4,8 @@ import Input from "./Input";
 import Snslogin from "./Snslogin";
 function Login(){
     return(
-        <div className={styles.container}>
+        <div className={styles.b}>
+            <div className={styles.container}>
             <div className={styles.head}>
             <Back></Back>
             <div className={styles.text}><p>맛있는 디저트와</p><p>더 가까워져요 :)</p></div>
@@ -22,6 +23,7 @@ function Login(){
             
             <div className={styles.submit}>확인</div>
             <div className={styles.gojoin}>계정이 없으신가요?</div>
+        </div>
         </div>
     )
 

@@ -1,3 +1,7 @@
+.background{
+    background-image:url("../../../public/background.png");
+    padding-bottom:100vh;
+}
 .title{
     font-size:20px;
     text-align: center;
