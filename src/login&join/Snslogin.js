@@ -1,5 +1,5 @@
-import styles from "./css/Snsjoin.module.css";
-function Snsjoin(){
+import styles from "./Snslogin.module.css";
+function Snslogin(){
     const path='./img/';
     return(
     <div>
@@ -13,4 +13,4 @@ function Snsjoin(){
     </div>
     );
 }
-export default Snsjoin;
+export default Snslogin;

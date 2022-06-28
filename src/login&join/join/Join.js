@@ -1,8 +1,8 @@
-import Back from "../back/Back";
-import styles from "./css/Login.module.css";
+import Back from "../../back/Back";
+import styles from "./css/Join.module.css";
 import Input from "./Input";
-import Snslogin from "./Snslogin";
-function Login(){
+import Snslogin from "../Snslogin";
+function Join(){
     return(
         <div className={styles.b}>
             <div className={styles.container}>
@@ -20,7 +20,6 @@ function Login(){
             <Input data="password"></Input>
             <Input data="check"></Input>
             </div>
-            
             <div className={styles.submit}>확인</div>
             <div className={styles.gojoin}>계정이 없으신가요?</div>
         </div>
@@ -29,4 +28,4 @@ function Login(){
 
 }
 
-export default Login;
+export default Join;
