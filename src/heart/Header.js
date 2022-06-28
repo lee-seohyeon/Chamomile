@@ -5,7 +5,7 @@ function Header(){
     return (
         <div className={styles.container}>
             <header>
-                <Back></Back>
+                <div className={styles.back}><Back></Back></div>
                 <div className={styles.title}>찜한목록</div>
                 <Link to="/" className={styles.link}><div className={styles.home}>🏠</div></Link>
             </header>

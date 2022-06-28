@@ -4,6 +4,10 @@
 .container{
     width:100%;
 }
+.back{
+    margin-left:3vw;
+    margin-right:3vw;
+}
 header{
     display:flex;
     justify-content: space-between;
