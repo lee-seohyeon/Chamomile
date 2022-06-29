@@ -9,7 +9,6 @@
 .container{
   background-color: white;
   border-radius:25px;
-  height:80%;
 }
 .options{
     width: 100%;
@@ -17,5 +16,6 @@
 }
 .products{
   display: flex;
+  flex-wrap: wrap;
   margin-top: 3vh;
 }
