@@ -15,19 +15,18 @@
     align-items: center;
 }
 .login{
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:80px;
+    padding-right:80px;
     padding-top:2vh;
     padding-bottom:2vh;
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size:2vw;
-    border-radius:10px;
+    font-size:15px;
+    border-radius:22px;
     background-color:#F9E183;
     border-width:2px;
     margin-top:3vh;
-    margin-bottom: 3vh;
 }
 .link{
     text-decoration: none;
@@ -44,3 +43,10 @@
     border-radius: 25px;
 }
 
+
+hr{
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    border-style:dashed;
+
+}

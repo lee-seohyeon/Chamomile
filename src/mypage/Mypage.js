@@ -9,6 +9,7 @@ function Mypage(){
             <div className={styles.container}>
                 <div className={styles.title}>마이페이지</div>
                 <Link to= "/login" className={styles.link}><div className={styles.login}>로그인/회원가입</div></Link>
+                <hr></hr>
                 <Navbar></Navbar>
                 <Mypagemenu></Mypagemenu>
             </div>
