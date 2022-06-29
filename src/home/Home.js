@@ -9,7 +9,7 @@ function Home() {
     <div className={styles.container}>
       <header>
         <div className={styles.title}>
-        <img src={require("./img/main.png")} alt="카모"/>
+        <img className={styles.logo} src={require("./img/main.png")} alt="logo"/>
         <div className={styles.titletext}>카모마일</div>
         </div>
       </header>
