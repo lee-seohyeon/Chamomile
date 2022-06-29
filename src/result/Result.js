@@ -69,11 +69,18 @@ function Result(){
         ]
     }
         useEffect(()=>{
-            if (text==="초코쿠키"){
+            if (text.includes("초코")){
                 setkeyword(products.chococookies);
             }
-            else if(text==="말차쿠키"){
+            else if(text.includes("말차")){
                 setkeyword(products.malcookies);
+            }
+            else if(text.includes("쿠키")){
+                setkeyword([...products.malcookies,...products.chococookies]);
+            }
+            else{
+                alert("검색결과가 없습니다!");
+                window.history.back();
             }
         },[]);
     return (
