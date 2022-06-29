@@ -3,7 +3,7 @@ import styles from './css/Mypagemenu.module.css';
 function Mypagemenu(){
     const path='./img/';
     return(
-        <div>
+        <div className={styles.container}>
             <div className={styles.menu}>
                     <img src={require(`${path}infoedit.png`)} className={styles.img} alt="홈"></img>
                     <div className={styles.content}>회원정보 수정</div>
