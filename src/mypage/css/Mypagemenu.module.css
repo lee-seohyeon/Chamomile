@@ -13,7 +13,7 @@
 }
 
 .img{
-    width:3vw;
+    width:6vw;
     border-radius:5px;
     padding:6px;
 }
@@ -23,7 +23,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;;
-    background-color: #F9E183 ;
+    background-color: #F9E183;
     margin-bottom: 10px;
     border-radius: 40px;
     padding-right: 90px;
