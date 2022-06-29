@@ -7,7 +7,7 @@ function Mypage(){
     return (
         <div className={styles.background}>
             <div className={styles.container}>
-                <div className={styles.title}>마이페이지다</div>
+                <div className={styles.title}>마이페이지</div>
                 <Link to= "/login" className={styles.link}><div className={styles.login}>로그인/회원가입</div></Link>
                 <Navbar></Navbar>
                 <Mypagemenu></Mypagemenu>
