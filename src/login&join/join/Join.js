@@ -14,7 +14,7 @@ function Join(){
             <Snslogin></Snslogin>
             <hr></hr>
             <div className={styles.startemail}>
-            <div className={styles.text}>이메일로 시작하기</div>
+            <div className={styles.text2}>이메일로 시작하기</div>
             <Input data="nickname"></Input>
             <Input data="email"></Input>
             <Input data="password"></Input>

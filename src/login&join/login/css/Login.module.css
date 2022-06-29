@@ -22,7 +22,7 @@
 .text{
     display: flex;
     justify-content: space-evenly;
-    font-size: 1vw;
+    font-size: 3.5vw;
 }
 .input{
     padding: 20px;
