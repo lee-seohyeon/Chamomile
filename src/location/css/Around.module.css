@@ -5,13 +5,13 @@
     padding: 3px;
     margin:10px;
 }
-.text{
-    font-size:15px;
+.name{
+    font-size:2vw;
     text-align:center;
 }
-.img{
-    padding:5px;
+.address{
+    font-size:1vw;
 }
-.img img{
-    width:200px;
+.phone{
+    font-size:0.8vw;
 }
