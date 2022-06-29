@@ -9,6 +9,7 @@ function Footer(){
       <div className={styles.firstfloor}>
         <div className={styles.footermenu}>개인정보처리방침</div>
         <div className={styles.footermenu}>이용약관</div>
+        <div className={styles.footermenu}>About Us</div>
       </div>
     </div>
       );
