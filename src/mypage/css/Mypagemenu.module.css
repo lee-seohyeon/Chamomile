@@ -5,12 +5,11 @@
     padding-bottom:2vh;
     display:flex;
     align-items: center;
-    font-size:2vw;
+    font-size:15px;
     border-radius:10px;
     border-width:2px;
-
     width:100%;
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 
 .img{
@@ -24,11 +23,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;;
-    background-color: white;
+    background-color: #F9E183 ;
     margin-bottom: 10px;
     border-radius: 40px;
     padding-right: 90px;
+    width:60%;
 }
 .menu img{
     padding: 20px;
 }
+

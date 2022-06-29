@@ -21,7 +21,6 @@ function Join(){
             <Input data="check"></Input>
             </div>
             <div className={styles.submit}>확인</div>
-            <div className={styles.gojoin}>계정이 없으신가요?</div>
         </div>
         </div>
     )
