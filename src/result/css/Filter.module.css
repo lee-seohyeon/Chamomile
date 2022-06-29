@@ -1,5 +1,10 @@
 .filter{
-    background-color: tomato;
     padding :1vw;
     border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter img{
+    width: 2.5vw;
 }

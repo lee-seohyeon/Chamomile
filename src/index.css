@@ -11,7 +11,12 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 @media screen and (max-width: 400px) {
 	body {
 		padding:0;
@@ -31,8 +36,8 @@
 }
 @media screen and (min-width:850px){
   body{
-    padding-left:30vw;
-    padding-right:30vw;
+    padding-left:27vw;
+    padding-right:27vw;
   }
 }
 body{
