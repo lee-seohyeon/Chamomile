@@ -24,11 +24,11 @@
     justify-content: left;
 }
 .name{
-    font-size:2vw;
+    font-size:4vw;
     font-family: 'GmarketSansBold';
 }
 .price{
-    font-size:1.5vw;
+    font-size:4vw;
 }
 .line1{
     display: flex;
@@ -42,7 +42,7 @@
     border-width: 1px;
 }
 .marketname{
-    font-size: 2vw;
+    font-size: 4vw;
 }
 .search{
     display:flex;
@@ -92,4 +92,10 @@
 .likebutton img{
     position: relative;
     width:100%;
+}
+
+.menuimg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
 }

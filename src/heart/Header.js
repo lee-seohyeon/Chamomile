@@ -12,11 +12,15 @@ function Header(){
             <section>
                 <div className={styles.information}>찜한 상품 n개</div>
                 <select>
-                    <option>담은순</option>
-                    <option>가격순</option>
+                    <option>리뷰많은순</option>
+                    <option>거리순</option>
+                    <option>낮은가격순</option>
+                    <option>높은가격순</option>
                 </select>
             </section>
             <hr></hr>
+            
+            여기에~~~ 찜한 상품 목록이 드도록 합시다 여기에~~~ 찜한 상품 목록이 드도록 합시다여기에~~~ 찜한 상품 목록이 드도록 합시다
         </div>
     );
 }

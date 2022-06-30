@@ -38,7 +38,7 @@ function Detail() {
               like ? islike(false) : islike(true);
             }}
           >
-            <img src={require(`./img/heart.png`)} alt="alt"></img>
+            <img src={require(`./img/heart.png`)} alt="tal"></img>
           </div>
         </div>
         <header className={styles.header}>
@@ -48,8 +48,8 @@ function Detail() {
           </Link>
         </header>
         <hr></hr>
+        <img className={styles.menuimg} src={require(`${data.img}`)} alt="alt"></img>
         <div className={styles.productinfo}>
-          <img src={require(`${data.img}`)} alt="alt"></img>
           <div className={styles.line1}>
             <div className={styles.name}>{data.name}</div>
             <div className={styles.price}>{data.price} 원</div>
