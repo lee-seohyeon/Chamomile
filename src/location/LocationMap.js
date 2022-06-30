@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import styles from "./css/LocationMap.module.css";
 const { kakao } = window;
-function Location({ setData }) {
-  let marketlist = [];
+function Location({ setData, setLocation }) {
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
       const lat = position.coords.latitude;
@@ -44,6 +43,7 @@ function Location({ setData }) {
           infowindow.open(map, marker);
         });
       }
+      setLocation([lat, lon]);
     });
   }, []);
   return <div className={styles.map} id="map"></div>;
