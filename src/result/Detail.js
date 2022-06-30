@@ -38,7 +38,7 @@ function Detail() {
               like ? islike(false) : islike(true);
             }}
           >
-            <img src={require(`./img/heart.png`)} alt="alt"></img>
+            <img src={require(`./img/heart.png`)} alt="tal"></img>
           </div>
         </div>
         <header className={styles.header}>
