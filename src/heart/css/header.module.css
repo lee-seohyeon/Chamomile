@@ -14,7 +14,7 @@ header{
 }
 .title{
     text-align: center;
-    font-size:4vw;
+    font-size:6vw;
 }
 section{
     margin-top: 2vh;
@@ -24,7 +24,7 @@ section{
 .home{
     margin-left:3vw;
     margin-right:3vw;
-    font-size:3vw;
+    font-size:6vw;
     border-style:none;
     background:none;
 }
