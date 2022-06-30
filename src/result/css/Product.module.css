@@ -14,7 +14,6 @@
 .tag{
     display:flex;
     justify-content: left;
-    position:relative;
 }
 .name{
     font-family: 'GmarketSansBold';
