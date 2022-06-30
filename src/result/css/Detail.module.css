@@ -37,11 +37,59 @@
     border-top-style: solid;
     padding:4px;
 }
-.section{
+.introduce{
     border-top-style:solid;
     border-width: 1px;
 }
-.map{
+.marketname{
+    font-size: 2vw;
+}
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.search img{
+   width:2.5vw;
+}
+.copy{
+    margin-left: 10px;
+    background-color: white;;
+    width: 35px;
+    border:none;
+}
+.copy:active{
+    background-color:rgb(191, 191, 191);
+}
+.address{
     display: flex;
-    width: 80%;
+}
+.copy img{
+    width: 100%;
+}
+.fix{
+    display:flex;
+    justify-content:right;
+}
+.likebutton{
+    position:fixed;
+    z-index:10000;
+    bottom:10px;
+    border-radius: 100%;
+    border-style:solid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    height:4vw;
+    font-size:3vw;
+    border-width: 1px;
+    padding: 1vw;
+}
+.likebutton:active{
+    background-color: antiquewhite;
+}
+.likebutton img{
+    position: relative;
+    width:100%;
 }
