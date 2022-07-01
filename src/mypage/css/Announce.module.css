@@ -18,3 +18,19 @@
     border-radius: 25px;
     width: 82%;
 }
+
+.title{
+    font-size: 6vw;
+    text-align: center;
+    flex-basis: 80%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.fake{
+    flex-basis:10%;
+}
