@@ -3,6 +3,7 @@ import styles from "./css/Location.module.css";
 import Navbar from "../nav/Navbar";
 import Around from "./Around";
 import { useState } from "react";
+import Back from "../back/Back";
 function Location() {
   const [data, setData] = useState([]);
   const [location, setLocation] = useState([]);
@@ -10,7 +11,11 @@ function Location() {
   return (
     <div className={styles.background}>
       <div className={styles.container}>
-        <div className={styles.title}>내위치</div>
+        <div className={styles.header}>
+          <Back className={styles.fake}></Back>
+          <div className={styles.title}>내위치</div>
+          <div className={styles.fake}></div>
+        </div>
         <hr></hr>
         <LocationMap setData={setData} setLocation={setLocation}></LocationMap>
         <Navbar></Navbar>
