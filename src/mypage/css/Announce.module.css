@@ -34,3 +34,7 @@
 .fake{
     flex-basis:10%;
 }
+
+.posttitle, .postdate{
+    font-family: 'Noto Sans KR', sans-serif;
+}
