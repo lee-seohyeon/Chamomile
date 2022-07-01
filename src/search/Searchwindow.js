@@ -10,7 +10,9 @@ function Searchwindow(){
             onClick={back}>X</button>
         <div className={styles.searchwindow}>
             
-            <Searchbar place=""></Searchbar>
+            <Searchbar place="">
+                
+            </Searchbar>
         </div>
         </div>
     );
