@@ -72,11 +72,11 @@
     justify-content:right;
 }
 .likebutton{
+    box-shadow: 5px 5px 5px grey ;
     position:fixed;
     z-index:10000;
     bottom:10px;
     border-radius: 100%;
-    border-style:solid;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,6 @@
     position: relative;
     width:100%;
 }
-
 .menuimg{
     display: flex;
     justify-content: center;

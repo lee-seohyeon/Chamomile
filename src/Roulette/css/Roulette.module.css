@@ -1,0 +1,45 @@
+.background{
+    background-image:url("../../../public/background.png");
+    padding: 15px;
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    font-size:3vw;
+    align-items: center;
+}
+.roulette{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width:50%;
+    border-style:solid;
+    background-color: white;
+    border-radius: 25px;
+    border-width: 1px;
+    font-size:30px;
+}
+.button:hover{
+   transform: scale(1.2);
+}
+.title{
+    flex-basis:60%;
+    font-family: 'GmarketSansBold';
+}
+.fake{
+    flex-basis: 20%;
+}
+.result{
+    font-size:3vw;
+}

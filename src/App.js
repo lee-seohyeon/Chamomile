@@ -8,6 +8,7 @@ import Login from "./login&join/login/Login";
 import Join from "./login&join/join/Join";
 import Location from "./location/Location";
 import Detail from "./result/Detail";
+import Roulette from "./Roulette/Roulette";
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ function App() {
         <Route element={<Login />} path="/login"></Route>
         <Route element={<Location />} path="/location"></Route>
         <Route element={<Join />} path="/join"></Route>
+        <Route element={<Roulette />} path="/roulette"></Route>
       </Routes>
     </BrowserRouter>
   );
