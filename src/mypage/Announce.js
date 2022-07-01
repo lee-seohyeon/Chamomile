@@ -17,9 +17,10 @@ function Announce() {
             <div className={styles.postcontainer}>
                 <p className={styles.posttitle}>개인정보처리방침 개정 안내</p>
                 <p className={styles.postdate}>2022.06.23</p>
-                <hr className={styles.postline}></hr>
             </div>
+            <hr className={styles.postline}></hr>
 
+            
         </div>
         <Navbar></Navbar>
     </div>
