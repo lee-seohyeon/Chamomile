@@ -39,3 +39,7 @@ hr{
 .fake{
     flex-basis:10%;
 }
+
+.postcontainer{
+    display: flex;
+}
