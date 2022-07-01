@@ -3,6 +3,8 @@ import styles from "./css/Login.module.css";
 import Input from "./Input";
 import Snslogin from "../Snslogin";
 import {Link} from "react-router-dom";
+import Navbar from "../../nav/Navbar"
+
 function Login(){
     return(
         <div className={styles.b}>
@@ -30,7 +32,9 @@ function Login(){
                 <hr></hr>
                 <div className={styles.text}>
                    매일 맛있는 디저트를 즐기고 싶다면?
+                   <Navbar></Navbar>
                    <div className={styles.join}><Link to="/join" className={styles.link}>회원가입</Link></div> 
+                
                 </div>
                 
             </div>
