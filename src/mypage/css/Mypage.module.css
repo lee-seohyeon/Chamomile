@@ -8,6 +8,7 @@
     padding-bottom:40vh;
 }
 .title{
+    flex-basis:80%;
     width:100%;
     font-size:23px;
     display:flex;
@@ -50,4 +51,12 @@ hr{
     margin-top: 2vh;
     border-style:dashed;
 
+}
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fake{
+    flex-basis:10%;
 }

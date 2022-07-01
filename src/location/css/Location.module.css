@@ -16,6 +16,7 @@
 .title{
     font-size: 6vw;
     text-align: center;
+    flex-basis: 80%;
 }
 hr{
     width:100%;
@@ -28,4 +29,13 @@ hr{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.fake{
+    flex-basis:10%;
 }
