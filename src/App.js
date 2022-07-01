@@ -10,6 +10,7 @@ import Location from "./location/Location";
 import Detail from "./result/Detail";
 import Mbtitest from "./mbtitest/Mbtitest";
 import Roulette from "./Roulette/Roulette";
+import Announce from "./mypage/Announce"
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ function App() {
         <Route element={<Join />} path="/join"></Route>
         <Route element={<Mbtitest />} path="/mbtitest"></Route>
         <Route element={<Roulette />} path="/roulette"></Route>
+        <Route element={<Announce/>} path="/announce"></Route>
       </Routes>
     </BrowserRouter>
   );
