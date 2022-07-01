@@ -5,7 +5,7 @@ import styles from './css/mbtitest.module.css';
 function Mbtitest() {
   return (
     <div>
-        제발 되게해주세요!
+        <div className={styles.plz}>왜 안돼?</div>
     </div>
   )
 }
