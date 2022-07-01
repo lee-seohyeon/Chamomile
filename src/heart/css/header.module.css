@@ -5,6 +5,7 @@
     width:100%;
 }
 .back{
+    flex-basis:10%;
     margin-left:3vw;
     margin-right:3vw;
 }
@@ -13,6 +14,7 @@ header{
     justify-content: space-between;
 }
 .title{
+    flex-basis:80%;
     text-align: center;
     font-size:6vw;
 }
@@ -21,10 +23,6 @@ section{
     display:flex;
     justify-content: space-between;
 }
-.home{
-    margin-left:3vw;
-    margin-right:3vw;
-    font-size:6vw;
-    border-style:none;
-    background:none;
+.fake{
+    flex-basis:10%;
 }
