@@ -4,10 +4,11 @@ function Test(){
     return (
 <div className={styles.test}>
         <Link to="/mbtitest/Mbtitest" className={styles.mbtitest}>
-            <div>나와 가장 어울리는 디저트는 ?</div>
+            나와 가장 어울리는 디저트는 ?
         </Link>
-        <div className={styles.random}>돌려 돌려 디저트 룰렛 ~ 😋 </div>
+      <Link to="/roulette" className={styles.random}>
+        돌려 돌려 디저트 룰렛 ~ 😋
+      </Link>
       </div>
     );
-}
 export default Test;
