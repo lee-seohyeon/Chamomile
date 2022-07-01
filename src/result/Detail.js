@@ -48,7 +48,11 @@ function Detail() {
           </Link>
         </header>
         <hr></hr>
-        <img className={styles.menuimg} src={require(`${data.img}`)} alt="alt"></img>
+        <img
+          className={styles.menuimg}
+          src={require(`${data.img}`)}
+          alt="alt"
+        ></img>
         <div className={styles.productinfo}>
           <div className={styles.line1}>
             <div className={styles.name}>{data.name}</div>
