@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Test() {
   return (
     <div className={styles.test}>
-      <Link to="/mbtitest/Mbtitest" className={styles.mbtitest}>
+      <Link to="/mbtitest" className={styles.mbtitest}>
         나와 가장 어울리는 디저트는 ?
       </Link>
       <Link to="/roulette" className={styles.random}>
