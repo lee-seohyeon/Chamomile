@@ -29,6 +29,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .fake{
@@ -53,6 +54,12 @@
 }
 .postcontainer{
     display: flex;
-    flex-direction:column;
-    width:90%;
+    flex-direction:row;
+    width:92%;
+    justify-content:space-between
+}
+
+.postgo{
+    display:flex;
+    align-items: center;
 }
