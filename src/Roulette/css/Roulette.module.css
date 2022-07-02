@@ -1,6 +1,7 @@
 .background{
     background-image:url("../../../public/background.png");
     padding: 15px;
+    padding-bottom: 200px;
 }
 .container{
     background-color: white;
@@ -9,7 +10,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:95%;
 }
+
 .header{
     width:100%;
     display: flex;
@@ -28,18 +31,21 @@
     background-color: white;
     border-radius: 25px;
     border-width: 1px;
-    font-size:30px;
+    font-size:4vw;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .button:hover{
    transform: scale(1.2);
 }
 .title{
     flex-basis:60%;
-    font-family: 'GmarketSansBold';
+    /* font-family: 'GmarketSansBold'; */
+    font-size: 6vw;
 }
 .fake{
     flex-basis: 20%;
 }
 .result{
-    font-size:3vw;
+    font-size:5vw;
+    margin-bottom: 20px;
 }

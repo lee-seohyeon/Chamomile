@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Wheel } from "react-custom-roulette";
 import styles from "./css/Roulette.module.css";
+import Navbar from "../nav/Navbar";
 import Back from "../back/Back";
 function Roulette() {
   const data = [
@@ -32,7 +33,7 @@ function Roulette() {
           <div className={styles.fake}>
             <Back></Back>
           </div>
-          <div className={styles.title}>Roulette Game</div>
+          <div className={styles.title}>룰렛 게임</div>
           <div className={styles.fake}></div>
         </div>
         <hr />
@@ -67,7 +68,7 @@ function Roulette() {
         <div className={styles.result}>
           {!mustSpin ? data[prizeNumber].option : ""}
         </div>
-        <hr />
+        <Navbar></Navbar>
       </div>
     </div>
   );
