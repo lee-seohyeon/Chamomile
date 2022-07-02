@@ -30,11 +30,11 @@ function Roulette() {
     <div className={styles.background}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <div className={styles.fake}>
-            <Back></Back>
-          </div>
-          <div className={styles.title}>룰렛 게임</div>
-          <div className={styles.fake}></div>
+        <div className={styles.header}>
+                <Back className={styles.fake}></Back>
+                <div className={styles.title}>룰렛 게임</div>
+                <div className={styles.fake}></div>
+            </div>
         </div>
         <hr />
         <div className={styles.roulette}>
