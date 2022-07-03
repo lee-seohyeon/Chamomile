@@ -29,10 +29,10 @@ function Result() {
         <Searchbar place={text}></Searchbar>
         <Sort></Sort>
         <div className={styles.products}>
-          {keyword.map((data) => (
+          {keyword.map((data, i) => (
             <Link to={`/detail/${data.name}`}>
               <Product
-                key={data.name}
+                key={i}
                 name={data.name}
                 tag={data.tag}
                 shopname={data.shopname}
