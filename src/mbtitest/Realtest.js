@@ -13,7 +13,8 @@ function Realtest(){
         <>
             <div className={styles.start}>
                 <h3> 고고? </h3>
-                <button onclick='start();'>테스트 시작하기</button>
+                <button onclick='start();'>테스트 
+                시작하기</button>
             </div>
 
 
