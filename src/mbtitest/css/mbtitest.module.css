@@ -1,3 +1,37 @@
-.plz{
-    font-size: 6vw;
+.background{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-image:url("../../../public/background.png");
+    padding-bottom:40vh;
+}
+.title{
+    flex-basis:80%;
+    width:100%;
+    font-size:23px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 78%;
+}
+
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fake{
+    flex-basis:3%;
 }
