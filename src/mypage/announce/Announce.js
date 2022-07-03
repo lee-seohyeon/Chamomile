@@ -4,7 +4,6 @@ import Back from "../../back/Back";
 import data from "./announce.json";
 import Post from "./Post";
 function Announce() {
-  console.log(data);
   return (
     <div className={styles.background}>
       <div className={styles.container}>
