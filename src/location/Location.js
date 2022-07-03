@@ -4,12 +4,13 @@ import Navbar from "../nav/Navbar";
 import Around from "./Around";
 import { useState } from "react";
 import Back from "../back/Back";
+import Loading from "../loading/Loading";
 function Location() {
   const [data, setData] = useState([]);
   const [location, setLocation] = useState([]);
-  console.log(data);
   return (
     <div className={styles.background}>
+      {data.length !== 0 ? "" : <Loading></Loading>}
       <div className={styles.container}>
         <div className={styles.header}>
           <Back className={styles.fake}></Back>
@@ -18,6 +19,7 @@ function Location() {
         </div>
         <hr></hr>
         <LocationMap setData={setData} setLocation={setLocation}></LocationMap>
+
         <Navbar></Navbar>
         <hr></hr>
         <div className={styles.text}>
