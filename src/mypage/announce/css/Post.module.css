@@ -1,0 +1,31 @@
+.post{
+    width:100%;
+}
+
+.posttitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 3.5vw;
+}
+
+.postline{
+    border-style: solid;
+    color:gray;
+    border-width: 0.1px;
+}
+
+.postdate{
+    color:gray;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:3vw;
+}
+.postcontainer{
+    display: flex;
+    width:100%;
+    justify-content:space-between
+}
+
+.postgo{
+    display:flex;
+    align-items: center;
+    
+}

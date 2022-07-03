@@ -1,0 +1,45 @@
+.background{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+    background-image:url("../../../../public/background.png");
+    padding-bottom:40vh;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.container{
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 78%;
+}
+.content{
+    width:100%;
+    display: flex;
+    padding-top:10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    border-bottom:solid;
+    border-width:1px;
+}
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fake{
+    flex-basis:10%;
+    width: 100%;
+}
+.title{
+    flex-basis: 80%;
+    text-align: center;
+    width:100%;
+    font-size:30px;
+    
+}
