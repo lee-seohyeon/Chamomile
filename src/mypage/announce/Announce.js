@@ -12,7 +12,6 @@ function Announce() {
           <div className={styles.title}>공지사항</div>
           <div className={styles.fake}></div>
         </div>
-        <hr></hr>
         {data.map((d, i) => (
           <Post title={d.title} date={d.date} key={i}></Post>
         ))}

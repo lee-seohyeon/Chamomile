@@ -20,6 +20,7 @@
     align-items: center;
     justify-content:center;
     border-width:1px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .link{
     text-decoration: none;

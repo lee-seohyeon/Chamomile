@@ -4,17 +4,16 @@
 }
 .b{
     padding-top: 30px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:30px;
+    padding-right:30px;
     background-image:url("../../../../public/background.png");
     padding-bottom:20vh;
     
 }
 .container{
-
     background-color: white;
-    border-radius:10px;
-    padding:2vw;
+    border-radius:25px;
+    padding:4vw;
 }
 .text{
     font-size: 20px;

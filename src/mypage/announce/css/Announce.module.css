@@ -26,15 +26,16 @@
     font-size: 6vw;
     text-align: center;
     flex-basis: 80%;
+    font-family: 'GmarketSansLight';
 }
 
 .header{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .fake{
-    flex-basis:10%;
+    flex-basis:7%;
 }
