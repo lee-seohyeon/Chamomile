@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import styles from "./css/LocationMap.module.css";
 const { kakao } = window;
 function Location({ setData, setLocation }) {
