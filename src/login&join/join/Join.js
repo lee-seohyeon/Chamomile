@@ -3,6 +3,8 @@ import styles from "./css/Join.module.css";
 import Input from "./Input";
 import Snslogin from "../Snslogin";
 import Navbar from "../../nav/Navbar";
+import {Link} from 'react-router-dom';
+
 function Join(){
     return(
         <div className={styles.b}>
@@ -23,10 +25,14 @@ function Join(){
             <Input data="password"></Input>
             <Input data="check"></Input>
             </div>
-            <div className={styles.submit}>
-                확인
-                <Navbar>g</Navbar>
-            </div>
+            <Link to="/mypage" className={styles.link}>
+                <div className={styles.submit}>
+                    확인
+                    <Navbar></Navbar>
+                </div>
+            </Link>
+            
+            
         </div>
         </div>
     )
