@@ -8,7 +8,7 @@ function Footer() {
       </div>
 
       <div className={styles.firstfloor}>
-        <div className={styles.footermenu}>2022 All rights reserved.</div>
+        <div className={styles.footermenu}>ⓒ 2022 All rights reserved.</div>
       </div>
     </div>
   );

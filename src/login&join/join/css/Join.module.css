@@ -54,3 +54,23 @@
     text-align: center;
     margin-bottom: 8px;
 }
+.nick{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.check{
+    
+    width:100%;
+    border-style:none;
+    background-color: rgb(217,217,217);
+    border-radius:100px;
+    font-size:10px;
+    padding:6px;
+
+}
+.but{
+    display: flex;
+    align-items: center;
+    padding:1px;
+}
