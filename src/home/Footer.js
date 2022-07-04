@@ -1,17 +1,16 @@
-import styles from'./css/Footer.module.css';
-function Footer(){
-    return (      
+import styles from "./css/Footer.module.css";
+function Footer() {
+  return (
     <div className={styles.footer}>
+      <div className={styles.contactus}>Contact Us!</div>
       <div className={styles.firstfloor}>
-        <div className={styles.join}>내 가게 등록하기</div>
+        <div className={styles.join}>내 카페 등록하기</div>
       </div>
-      
+
       <div className={styles.firstfloor}>
-        <div className={styles.footermenu}>개인정보처리방침</div>
-        <div className={styles.footermenu}>이용약관</div>
-        <div className={styles.footermenu}>About Us</div>
+        <div className={styles.footermenu}>2022 All rights reserved.</div>
       </div>
     </div>
-      );
+  );
 }
 export default Footer;

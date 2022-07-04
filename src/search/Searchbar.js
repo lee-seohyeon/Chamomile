@@ -31,8 +31,12 @@ function Searchbar({ place }) {
           onKeyDown={enter}
           autoFocus
         ></input>
-        <Link to={`/result/${text}`} className={styles.link}>
-          <button className={styles.submit}>🔍</button>
+        <Link to={`/result/${text}`} className={styles.submit}>
+          <img
+            src={require(`./search.png`)}
+  
+            alt="s"
+          ></img>
         </Link>
       </div>
     </div>

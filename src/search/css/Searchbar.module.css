@@ -1,8 +1,11 @@
 .searchbar{
     display:flex;
     width:95%;
+    justify-content: space-between;
+    align-items: center;
 }
 .search{
+    flex-basis:90%;
     font-family:'GmarketSansLight';
     border-style:hidden;
     padding: 9px;
@@ -17,11 +20,17 @@
   outline:none;
 }
 .submit{
-    height:100%;
+    display: flex;
+    padding-top:8px;
+    flex-basis:10%;
+    width:100%;
     border-radius:10px;
     background-color:white;
     border-style:hidden;
     font-size:20px;
+}
+.submit img{
+    width:100%;
 }
 
 .container{

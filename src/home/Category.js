@@ -96,7 +96,7 @@ function Category() {
       <div className={styles.option}>
         <img
           src={require(`${path}waffle.png`)}
-          className={styles.img}
+          className={styles.waffle}
           alt="스콘"
         />
         와플/크로플

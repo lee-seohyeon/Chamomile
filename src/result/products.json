@@ -2,55 +2,62 @@
       {
         "name": "말차쿠키",
         "tag": ["꾸덕", "비건"],
-        "shopname": "베이커리 모모",
+        "shopname": "모모",
         "likenum": 30,
         "distance": 30,
         "price": 2500,
+        "reviewnum":100,
         "img": "./img/greentea-1.png"
       },
       {
         "name": "하동녹차쿠키",
         "tag": ["하동", "비건"],
-        "shopname": "카페 Yound",
+        "shopname": "Young",
         "likenum": 50,
         "distance": 50,
         "price": 2000,
+        "reviewnum":40,
         "img": "./img/greentea-2.jpg"
       },
       {
         "name": "그린티 쿠키",
         "tag": ["바삭", "유기농"],
-        "shopname": "카페 다시, 봄",
+        "shopname": "다시, 봄",
         "likenum": 20,
         "distance": 100,
         "price": 3000,
+        "reviewnum":30,
+        
         "img": "./img/greentea-3.jpg"
       },
       {
         "name": "초코칩 쿠키",
         "tag": ["촉촉", "수제"],
-        "shopname": "카페 aha",
+        "shopname": "aha",
         "likenum": 10,
         "distance": 40,
         "price": 2200,
+        "reviewnum":50,
         "img": "./img/choco-1.png"
       },
       {
         "name": "더블 초코 쿠키",
         "tag": ["다크", "비건"],
-        "shopname": "카페 young",
+        "shopname": "young",
         "likenum": 25,
         "distance": 120,
         "price": 2000,
+        "reviewnum":60,
         "img": "./img/choco-2.png"
       },
       {
         "name": "초콜릿 쿠키",
         "tag": ["다크", "비건"],
-        "shopname": "카페 다시, 봄",
+        "shopname": "다시, 봄",
         "likenum": 35,
         "distance": 140,
         "price": 1800,
+        "reviewnum":80,
         "img": "./img/choco-3.jpg"
       }
 ]
