@@ -98,8 +98,8 @@ function Realtest(){
 
                 <article className={styles.question}>
                     <p className={styles.qtext}> Q8. 친구와 사이좋게 케이크를 나눠먹던 중 한조각이 남았을 때 나는</p>
-                    <p className={styles.text}> A. “가위바위보로 정할래?” 정정당당하게 맞선다</p>
-                    <p className={styles.text}> B. “너 먹어!”라며 훈훈하게 양보한다</p>
+                    <p className={styles.text}> A. “가위바위보로 정할래?” 정정당당하게 맞선다.</p>
+                    <p className={styles.text}> B. “너 먹어!”라며 훈훈하게 양보한다.</p>
                     <button id="A" onClick={tfclick} type="button">A</button>
                     <button id="B" type="button">B</button>
                     <hr></hr>
@@ -107,8 +107,8 @@ function Realtest(){
 
                 <article className={styles.question}>
                     <p className={styles.qtext}> Q9. 내 최애 디저트가 맛없다는 후기를 봤을 때 나는</p>
-                    <p className={styles.text}> A. “음~~ 냠냠 ~” 신경쓰지 않고 계속 먹는다</p>
-                    <p className={styles.text}> B. “맛이 변했나..?” 괜히 맛없게 느껴진다</p>
+                    <p className={styles.text}> A. “음~~ 냠냠 ~” 신경쓰지 않고 계속 먹는다.</p>
+                    <p className={styles.text}> B. “맛이 변했나..?” 괜히 맛없게 느껴진다.</p>
                     <button id="A" onClick={tfclick} type="button">A</button>
                     <button id="B" type="button">B</button>
                     <hr></hr>
@@ -117,7 +117,7 @@ function Realtest(){
                 <article className={styles.question}>
                     <p className={styles.qtext}> Q10. 갑자기 디저트가 먹고 싶어진 당신!</p>
                     <p className={styles.text}> A. 카모마일에서 꼼꼼히 살펴본 후 뭘 살지 정하고 카페로 출발한다.</p>
-                    <p className={styles.text}> B. 카모마일에서 가장 가까운 곳으로 우선 출발, 가서 끌리는대로 산다</p>
+                    <p className={styles.text}> B. 카모마일에서 가장 가까운 곳으로 우선 출발, 가서 끌리는대로 산다.</p>
                     <button id="A" onClick={jpclick} type="button">A</button>
                     <button id="B" type="button">B</button>
                     <hr></hr>
@@ -142,6 +142,11 @@ function Realtest(){
                     <hr></hr>
                 </article>
 
+                <article className={styles.result}>
+                    <p className={styles.mbtiresult}>mbti두둥</p>
+                    <p className={styles.resulttext}>mbti설명</p>
+                    <p className={styles.resultsubtext}>mbti특징좌르르륵</p>
+                </article>
             </div>
 
 
