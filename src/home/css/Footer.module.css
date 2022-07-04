@@ -2,8 +2,16 @@
     width:100%;
     padding-top:10px;
     padding-bottom:10vh;
-    background-color: #FED88B;
+    background-color: #FDDA32;
+    
   }
+.contactus{
+  text-align: center;
+  font-family: 'GmarketSansBold';
+  color:white;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
 .footermenu{
     font-size:13px;
     margin: 10px;

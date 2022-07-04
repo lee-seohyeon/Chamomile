@@ -1,22 +1,37 @@
 .test{
+    background-color: rgb(242,242,242);
+    border-radius:10px;
+    padding:5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 90%;
-    height: 20vh;
     margin-top : 3vw;
     margin-bottom : 3vw;
   }
 .mbtitest,.random{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:rgb(127,127,127);
   flex-basis:45%;
   margin:3px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  flex-direction: column;
   border-width:1px;
   border-radius:15px;
   background-color: white;
-  margin-bottom: 5px;
+  padding: 20px;
+}
+.mbtitest img, .random img{
+  width: 50%;
+}
+.title{
+  font-size:20px;
+  font-weight: bolder;
+}
+.text{
+  color:gray;
+  font-size:10px;
+  text-align: center;
 }

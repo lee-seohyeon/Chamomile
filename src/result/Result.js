@@ -9,12 +9,19 @@ import { Link } from "react-router-dom";
 function Result() {
   const { text } = useParams();
   const [keyword, setkeyword] = useState(products);
+  console.log(products);
   function sorting(sort) {
     const sortarr = keyword.concat();
     if (sort === "1") {
       setkeyword((keyword) =>
         sortarr.sort((a, b) => {
           return a.distance - b.distance;
+        })
+      );
+    } else if (sort === "2") {
+      setkeyword((keyword) =>
+        sortarr.sort((a, b) => {
+          return a.reviewnum - b.reviewnum;
         })
       );
     } else if (sort === "3") {
