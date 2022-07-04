@@ -1,4 +1,12 @@
-.start{
-    display:flex;
-    flex-direction: column;
+.text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 3.7vw;
+    font-weight: 300;
+}
+
+.qtext{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 3.7vw;
+    font-weight: 450;
+    margin-bottom: 8px;
 }
