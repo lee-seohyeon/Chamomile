@@ -20,6 +20,7 @@
 }
 .content{
     width:100%;
+    font-size: 3.5vw;
     display: flex;
     padding-top:10px;
     padding-bottom: 10px;
@@ -40,13 +41,10 @@
 }
 
 .title{
+    font-size: 3.5vw;
     flex-basis: 80%;
     text-align: center;
     width:100%;
     font-size:6vw;
     font-family: 'GmarketSansLight';
-}
-
-div{
-    font-size: 3.5vw;
 }
