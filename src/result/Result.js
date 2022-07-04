@@ -1,72 +1,66 @@
 import { useParams } from "react-router-dom";
 import Searchbar from "../search/Searchbar";
-import Sort from "./Sort";
 import Navbar from "../nav/Navbar";
 import styles from "./css/Result.module.css";
 import Product from "./Product";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import products from "./products.json";
 import { Link } from "react-router-dom";
 function Result() {
   const { text } = useParams();
-  const [keyword, setkeyword] = useState([]);
-  const [sort, setSort] = useState(1);
-  useEffect(() => {
-    if (text.includes("초코")) {
-      setkeyword(products.chococookies);
-    } else if (text.includes("말차")) {
-      setkeyword(products.malcookies);
-    } else if (text.includes("쿠키")) {
-      setkeyword([...products.malcookies, ...products.chococookies]);
-    } else {
-      alert("검색결과가 없습니다!");
-      window.history.back();
-    }
-  }, []);
-  function sorting() {
-    if (sort === 1) {
+  const [keyword, setkeyword] = useState(products);
+  function sorting(sort) {
+    const sortarr = keyword.concat();
+    if (sort === "1") {
       setkeyword((keyword) =>
-        keyword.sort((a, b) => {
+        sortarr.sort((a, b) => {
           return a.distance - b.distance;
         })
       );
-    } else if (sort === 3) {
+    } else if (sort === "3") {
       setkeyword((keyword) =>
-        keyword.reverse((a, b) => {
-          return a.likenum - b.likenum;
+        sortarr.sort((a, b) => {
+          return b.likenum - a.likenum;
         })
       );
-    } else if (sort === 4) {
+    } else if (sort === "4") {
       setkeyword((keyword) =>
-        keyword.sort((a, b) => {
+        sortarr.sort((a, b) => {
           return a.price - b.price;
         })
       );
     }
-    console.log(keyword);
   }
-  useEffect(() => {
-    sorting();
-  }, [sort]);
+  const SET = (e) => {
+    console.log(e.target.value);
+    sorting(e.target.value);
+  };
   return (
     <div className={styles.background}>
       <Navbar></Navbar>
       <div className={styles.container}>
         <Searchbar place={text}></Searchbar>
-        <Sort setSort={setSort}></Sort>
+        <div className={styles.sort}>
+          <img src={require(`./img/sort.png`)} alt="img"></img>
+          <select onChange={SET}>
+            <option value="1">가까운 순 </option>
+            <option value="2">리뷰 많은 순</option>
+            <option value="3">찜 많은 순</option>
+            <option value="4">가격 낮은 순</option>
+          </select>
+        </div>
         <div className={styles.products}>
-          {useEffect(sorting, [sort])}
           {keyword.map((data, i) => (
             <Link to={`/detail/${data.name}`}>
               <Product
                 key={i}
-                name={data.name}
-                tag={data.tag}
-                shopname={data.shopname}
-                likenum={data.likenum}
-                distance={data.distance}
-                price={data.price}
-                img={data.img}
+                name={data && data.name}
+                tag={data && data.tag}
+                shopname={data && data.shopname}
+                likenum={data && data.likenum}
+                distance={data && data.distance}
+                price={data && data.price}
+                img={data && data.img}
               ></Product>
             </Link>
           ))}

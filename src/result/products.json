@@ -1,5 +1,4 @@
-{
-    "malcookies": [
+[
       {
         "name": "말차쿠키",
         "tag": ["꾸덕", "비건"],
@@ -26,9 +25,7 @@
         "distance": 100,
         "price": 3000,
         "img": "./img/greentea-3.jpg"
-      }
-    ],
-    "chococookies": [
+      },
       {
         "name": "초코칩 쿠키",
         "tag": ["촉촉", "수제"],
@@ -56,5 +53,4 @@
         "price": 1800,
         "img": "./img/choco-3.jpg"
       }
-    ]
-}
+]
