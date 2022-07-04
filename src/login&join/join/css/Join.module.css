@@ -54,11 +54,6 @@
     text-align: center;
     margin-bottom: 15px;
 }
-.nick{
-    display:flex;
-    justify-content: space-between;
-    width:100%;
-}
 .check{
     width:100%;
     border-style:none;
@@ -69,7 +64,9 @@
 }
 
 .but{
-    display: flex;
-    align-items: center;
-    padding:1px;
+    position: absolute;
+    width: 50px;
+    bottom:40px;
+    top:297px;
+    left:262px
 }
