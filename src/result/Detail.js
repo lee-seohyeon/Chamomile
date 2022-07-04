@@ -43,36 +43,52 @@ function Detail() {
         </div>
         <header className={styles.header}>
           <Back></Back>
+          <div className={styles.name}>{data.name}</div>
           <Link to="/search" className={styles.search}>
             <img src={require("./img/search.png")} alt="alt"></img>
           </Link>
         </header>
-        <hr></hr>
+
         <img
           className={styles.menuimg}
           src={require(`${data.img}`)}
           alt="alt"
         ></img>
+        
+        <div className={styles.mainbox}>
+            <div className={styles.box}>
+                <div className={styles.pricetext}>가격</div>
+                <div className={styles.price}>{data.price}원</div>
+            </div>
+
+                <div className={styles.box}>
+                    <div className={styles.keyword}>키워드</div>
+                    <div className={styles.tags}>
+                        {data.tag.map((t) => (
+                        <Tag key={t} tag={t}></Tag>
+                        ))}
+                    </div>
+                </div>
+
+            <div className={styles.box}>
+                <div className={styles.liketext}>좋아요</div>
+                <div className={styles.like}>좋아요개수</div>
+            </div>
+        </div>
+        {/* 메인박스 끝 */}
+
         <div className={styles.productinfo}>
-          <div className={styles.line1}>
-            <div className={styles.name}>{data.name}</div>
-            <div className={styles.price}>{data.price} 원</div>
+
+          <div className={styles.introduce}>
+            <p>대충 맛있다는 내용입니다.</p>
+            <p>대충 맛있다는 내용이라구요.</p>
+            <div className={styles.line1}></div>
           </div>
-          <div className={styles.tags}>
-            {data.tag.map((t) => (
-              <Tag key={t} tag={t}></Tag>
-            ))}
-          </div>
-          <div className={styles.introduce}>메뉴 간단 설명</div>
-          <div>
-            (대충 맛있다는 내용 대충 맛있다는 내용 대충 맛있다는 내용 대충
-            맛있다는 내용 대충 맛있다는 내용 대충 맛있다는 내용 대충 맛있다는
-            내용 대충 맛있다는 내용 대충 맛있다는 내용 대충 맛있다는 내용 대충
-            맛있다는 내용)
-          </div>
+          <br></br>
+
           <div className={styles.section}>
             <div className={styles.marketname}>
-              🏠{market && market.place_name}
+              🏠 {market && market.place_name}
             </div>
             <div className={styles.map}>
               <LocationMap
@@ -80,7 +96,7 @@ function Detail() {
                 setLocation={setLocation}
               ></LocationMap>
             </div>
-            <div className={styles.phone}>📞{market && market.phone}</div>
+            <div className={styles.phone}>📞 {market && market.phone}</div>
             <div className={styles.address}>
               📍{market && market.address_name}
               <button
