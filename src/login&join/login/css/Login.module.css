@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items:center;
+    padding-bottom: 0;
 }
 
 .submit{
@@ -80,4 +81,21 @@
 
 .emailsave{
     font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 11px;
+}
+
+label{
+    color:rgb(127, 127, 127);
+}
+
+.findemail, .findpassword{
+    color:rgb(127, 127, 127); 
+}
+
+hr{
+    color: #F9E183;
+}
+
+.joinyellow{
+    color: #F9E183;
 }

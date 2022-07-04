@@ -35,7 +35,13 @@ function Login(){
                 <div className={styles.text}>
                    매일 맛있는 디저트를 즐기고 싶다면?
                    <Navbar></Navbar>
-                   <div className={styles.join}><Link to="/join" className={styles.link}>회원가입</Link></div> 
+                   <div className={styles.join}>
+                        <Link to="/join" className={styles.link}>
+                            <div className={styles.joinyellow}>
+                                회원가입
+                            </div>
+                        </Link>
+                   </div> 
                 
                 </div>
                 
