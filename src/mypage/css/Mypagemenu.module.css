@@ -23,10 +23,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;;
-    background-color: #F9E183;
     margin-bottom: 10px;
     border-radius: 40px;
     padding-right: 120px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .menu img{
     padding: 20px;

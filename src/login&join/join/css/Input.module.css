@@ -1,10 +1,11 @@
 .inputdata{
-    font-family:'GmarketSansLight';
+    font-family: 'Noto Sans KR', sans-serif;
     font-size:15px;
     padding: 2vw;
     margin:0.2vw;
     border-radius: 15px;
     border-width: 2px;
     border-style:solid;
-    border-color: #F9E183 ;;
+    border-color: #F9E183 ;
+    margin-bottom: 7px;
 }

@@ -8,7 +8,7 @@ function Input({data}){
         place="이메일";
     }
     else if(data==="password"){
-        place="비밀번호(영문+숫자+특수문자 8~15자)";
+        place="비밀번호(영문+숫자 8~15자)";
     }
     else if(data==="check"){
         place="비밀번호 확인";

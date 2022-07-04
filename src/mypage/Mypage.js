@@ -13,9 +13,6 @@ function Mypage() {
           <div className={styles.title}>마이페이지</div>
           <div className={styles.fake}></div>
         </div>
-        <Link to="/login" className={styles.link}>
-          <div className={styles.login}>로그인/회원가입</div>
-        </Link>
         <hr></hr>
         <Navbar></Navbar>
         <Mypagemenu></Mypagemenu>

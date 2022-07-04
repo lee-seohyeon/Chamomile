@@ -24,7 +24,7 @@ function Navbar(){
                     <div className={styles.heart}>찜</div>
                 </Link>
 
-                <Link to= "/mypage" className={styles.link}>
+                <Link to= "/login" className={styles.link}>
                     <img src={require(`${path}mypage.png`)} className={styles.img} alt="홈"></img>
                     <div className={styles.mypage}>마이페이지</div>
                 </Link>
