@@ -142,6 +142,7 @@ function Realtest(){
                     <hr></hr>
                 </article>
 
+                <button id="goresult" type="button">결과 확인하기</button>
             </div>
 
 
