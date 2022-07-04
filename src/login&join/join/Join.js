@@ -22,7 +22,7 @@ function Join() {
         <div className={styles.startemail}>
           <div className={styles.text2}>이메일로 시작하기</div>
 
-          <Input data="nickname"></Input>
+          <Input className={styles.mom} data="nickname"></Input>
           <div className={styles.but}>
               <button className={styles.check}>중복확인</button>
           </div>

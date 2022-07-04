@@ -55,18 +55,18 @@
     margin-bottom: 15px;
 }
 .check{
-    width:100%;
+    width:50px;
     border-style:none;
     background-color: rgb(217,217,217);
     border-radius:100px;
     font-size:10px;
     padding:6px;
+    position: absolute;
+    top:45%;
+    left: 70%;
 }
 
-.but{
-    position: absolute;
-    width: 50px;
-    bottom:40px;
-    top:297px;
-    left:262px
+
+.mom{
+    position: relative;
 }
