@@ -13,9 +13,11 @@ function Quizpages() {
   return (
     <div className={styles.background}>
       <div className={styles.container}>
-        <progress value={page} max="12"></progress>
         {page <= 12 ? (
-          <Questionbox question={q[page - 1].question}></Questionbox>
+          <>
+            <progress value={page} max="12"></progress>
+            <Questionbox question={q[page - 1].question}></Questionbox>
+          </>
         ) : (
           <Result mbti={mbti}></Result>
         )}
