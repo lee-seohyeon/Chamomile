@@ -23,20 +23,30 @@ function Result() {
       window.history.back();
     }
   }, []);
-  useEffect(() => {
+  function sorting() {
     if (sort === 1) {
-      keyword.sort((a, b) => {
-        return a.distance - b.distance;
-      });
+      setkeyword((keyword) =>
+        keyword.sort((a, b) => {
+          return a.distance - b.distance;
+        })
+      );
     } else if (sort === 3) {
-      keyword.reverse((a, b) => {
-        return a.likenum - b.likenum;
-      });
+      setkeyword((keyword) =>
+        keyword.reverse((a, b) => {
+          return a.likenum - b.likenum;
+        })
+      );
     } else if (sort === 4) {
-      keyword.sort((a, b) => {
-        return a.price - b.price;
-      });
+      setkeyword((keyword) =>
+        keyword.sort((a, b) => {
+          return a.price - b.price;
+        })
+      );
     }
+    console.log(keyword);
+  }
+  useEffect(() => {
+    sorting();
   }, [sort]);
   return (
     <div className={styles.background}>
@@ -45,6 +55,7 @@ function Result() {
         <Searchbar place={text}></Searchbar>
         <Sort setSort={setSort}></Sort>
         <div className={styles.products}>
+          {useEffect(sorting, [sort])}
           {keyword.map((data, i) => (
             <Link to={`/detail/${data.name}`}>
               <Product
