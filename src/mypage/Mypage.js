@@ -13,7 +13,10 @@ function Mypage() {
           <div className={styles.title}>마이페이지</div>
           <div className={styles.fake}></div>
         </div>
-        <hr></hr>
+
+        <div className={styles.img}>
+            
+        </div>
         <Navbar></Navbar>
         <Mypagemenu></Mypagemenu>
       </div>
