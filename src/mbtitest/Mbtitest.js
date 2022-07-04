@@ -10,7 +10,7 @@ function Mbtitest() {
       <div className={styles.container}>
         <div className={styles.header}>
           <Back className={styles.fake}></Back>
-          <div className={styles.title}> MBTI 디저트! </div>
+          <div className={styles.title}> 디저트 MBTI </div>
           <div className={styles.fake}></div>
         </div>
         <hr></hr>
