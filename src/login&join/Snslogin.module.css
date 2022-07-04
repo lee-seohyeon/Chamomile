@@ -5,6 +5,7 @@
 .title{
     font-size:20px;
     text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .logos{
     margin-top:1vw;
@@ -15,6 +16,7 @@
     display:flex;
     text-align: center;
     flex-direction: column;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .kakao img, .naver img, .google img,.apple img{
     width:50px;

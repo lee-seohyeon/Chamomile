@@ -20,8 +20,10 @@ function Login(){
                 <Input
                 data={"inpassword"}></Input>
                 </div>
-                <label htmlFor="emailcheck">이메일 저장</label>
-                <input type="checkbox" id="emailcheck"></input>
+                <div className={styles.emailsave}>
+                    <input type="checkbox" id="emailcheck"></input>
+                    <label htmlFor="emailcheck">이메일 저장</label>
+                </div>
                 <div className={styles.submit}>로그인</div>
                 <div className={styles.find}>
                 <div className={styles.findemail}>
