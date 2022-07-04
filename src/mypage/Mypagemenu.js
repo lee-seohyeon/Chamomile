@@ -5,6 +5,11 @@ function Mypagemenu() {
   const path = "./img/";
   return (
     <div className={styles.container}>
+    <div className={styles.loginimg}>
+        <img src={require(`${path}prof.png`)} className={styles.img} alt="홈"></img>
+        <div className={styles.name}>미미</div>
+    </div>
+
 
         <div className={styles.menu}>
             <div className={styles.content}>내가 쓴 리뷰</div>
@@ -48,6 +53,7 @@ function Mypagemenu() {
             <div className={styles.postgo}> &gt; </div>
             </div>
         </Link>
+        
     </div>
   );
 }

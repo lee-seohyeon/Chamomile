@@ -1,7 +1,7 @@
 import styles from "./css/Mypage.module.css";
 import Navbar from "../nav/Navbar";
 import Mypagemenu from "./Mypagemenu";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Back from "../back/Back";
 
 function Mypage() {
@@ -14,9 +14,6 @@ function Mypage() {
           <div className={styles.fake}></div>
         </div>
 
-        <div className={styles.img}>
-            
-        </div>
         <Navbar></Navbar>
         <Mypagemenu></Mypagemenu>
       </div>
