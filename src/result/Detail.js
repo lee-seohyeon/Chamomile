@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 function Detail() {
   const { name } = useParams();
-  const searcharray = [...products.chococookies, ...products.malcookies];
+  const searcharray = products;
   let i = 0;
   for (i = 0; i < searcharray.length; i++) {
     if (searcharray[i].name === name) {
