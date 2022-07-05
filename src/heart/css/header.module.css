@@ -13,6 +13,7 @@ header{
     display:flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    margin-top: 3px;
 }
 .title{
     font-size:23px;
