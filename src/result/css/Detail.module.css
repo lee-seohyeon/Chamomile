@@ -74,16 +74,17 @@
     box-shadow: 5px 5px 5px grey ;
     position:fixed;
     z-index:10000;
-    bottom:10px;
+    bottom:70px;
+    right:10px;
     border-radius: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 4vw;
-    height:4vw;
+    width: 6vw;
+    height:6vw;
     font-size:3vw;
     border-width: 1px;
-    padding: 1vw;
+    padding: 1.5vw;
 }
 .likebutton:active{
     background-color: antiquewhite;

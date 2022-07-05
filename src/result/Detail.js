@@ -29,7 +29,7 @@ function Detail() {
   const [color, setcolor] = useState("white");
   const [like, islike] = useState(false);
   useEffect(() => {
-    like ? setcolor("red") : setcolor("white");
+    like ? setcolor("#F9E183 ") : setcolor("white");
   }, [like]);
   return (
     <div className={styles.background}>
