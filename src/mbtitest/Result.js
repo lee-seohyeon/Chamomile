@@ -29,7 +29,7 @@ const Result = ({ mbti }) => {
       </div>
 
       <div className={styles.share}>이 결과 공유하기</div>
-      {/* <img src={require(`${path}shareicons.png`)} className={styles.shareicons} alt="noimg"></img> */}
+      <img src={require(`${path}shareicons.png`)} className={styles.shareicons} alt="noimg"></img>
       <div className={styles.retest}>테스트 다시 하기</div>
     </div>
   );
