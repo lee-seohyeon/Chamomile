@@ -1,6 +1,6 @@
 .container{
     width: 140px;
-    height:220px;
+    height:210px;
     position:relative;
     text-align: left;
     border-radius: 15px;
@@ -70,11 +70,25 @@
     font-family: 'GmarketSansBold';
 }
 .likenum{
-    font-size:2px;
-    color: white;
+    font-size:13px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500px;
 }
 .section{
     padding-left:10px;
     padding-right:10px;
     
+}
+
+.ch{
+    width: 15px;
+    margin-right: 2px;
+}
+
+.floor{
+    display: flex;
+    justify-content: space-between;
 }

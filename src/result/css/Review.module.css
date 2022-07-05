@@ -34,4 +34,12 @@
 .reviewbox{
     background-color: rgba(127, 127, 127, 0.187);
     padding:20px;
+    margin-bottom: 25px;
+}
+
+.tags{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
 }
