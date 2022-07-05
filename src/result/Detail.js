@@ -80,7 +80,7 @@ function Detail() {
                 <div className={styles.liketext}>좋아요</div>
                 <div className={styles.like}>
                     <img src={require(`${path}colored-heart.png`)} className={styles.himg} alt="noimg"></img>
-                    개수
+                    <div className={styles.likenum}>{data.likenum}</div>
                 </div>
             </div>
         </div>

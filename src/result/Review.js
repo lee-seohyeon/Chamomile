@@ -1,4 +1,5 @@
 import styles from "./css/Review.module.css";
+import products from "./products.json";
 
 function Review(){
     const path = "./img/";

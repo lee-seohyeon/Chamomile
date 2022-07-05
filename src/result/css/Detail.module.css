@@ -29,9 +29,7 @@
     font-weight:700;
     margin-right: 9px;
 }
-.price{
-    font-size:4vw;
-}
+
 .line1{
     border-top-style: solid;
     border-width: 6px;
@@ -118,14 +116,14 @@
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .pricetext{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
     text-decoration: underline #F9E183 5px;
-    margin-bottom: 11px;
+    margin-bottom: 8px;
 }
 
 .keyword, .liketext{
@@ -155,5 +153,23 @@
 }
 
 .himg{
-    width: 23px;
+    width: 18px;
+    height: 18px;
+}
+
+
+.like{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.likenum{
+    margin-left: 2px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.price{
+    font-size:4vw;
+    font-family: 'Noto Sans KR', sans-serif;
 }
