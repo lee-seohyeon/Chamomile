@@ -32,6 +32,9 @@
     margin-top: 25px;
     display: flex;
     justify-content: center;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    padding:6px;
 }
 
 .shareicons{
