@@ -2,6 +2,8 @@ import React from "react";
 import data from "./contents/Result.json";
 import Resultdetail from "./Resultdetail";
 import styles from "./css/Result.module.css";
+import { Link } from "react-router-dom";
+
 const Result = ({ mbti }) => {
   let selectedMbti;
   let result = "";
@@ -17,6 +19,7 @@ const Result = ({ mbti }) => {
       selectedMbti = data[x];
     }
   }
+  const path = "./img/";
   return (
     <div>
       <div className={styles.mbti}>{selectedMbti.cat}</div>
@@ -26,6 +29,10 @@ const Result = ({ mbti }) => {
           <Resultdetail data={d} key={i}></Resultdetail>
         ))}
       </div>
+
+      <div className={styles.share}>이 결과 공유하기</div>
+      <img src={require(`${path}shareicons.png`)} className={styles.shareicons} alt="noimg"></img>
+      <Link to="/Mbtitest"><div className={styles.retest}>테스트 다시 하기</div></Link>
     </div>
   );
 };
