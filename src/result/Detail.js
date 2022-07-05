@@ -6,7 +6,11 @@ import Tag from "./Tag";
 import LocationMap from "../location/LocationMap";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import Navbar from "../nav/Navbar";
+
+
 function Detail() {
+  const path = "./img/";
   const { name } = useParams();
   const searcharray = products;
   let i = 0;
@@ -29,6 +33,7 @@ function Detail() {
   }, [like]);
   return (
     <div className={styles.background}>
+      <Navbar></Navbar>
       <div className={styles.container}>
         <div className={styles.fix}>
           <div
@@ -72,7 +77,10 @@ function Detail() {
 
             <div className={styles.box}>
                 <div className={styles.liketext}>좋아요</div>
-                <div className={styles.like}>좋아요개수</div>
+                <div className={styles.like}>
+                    <img src={require(`${path}colored-heart.png`)} className={styles.himg} alt="noimg"></img>
+                    개수
+                </div>
             </div>
         </div>
         {/* 메인박스 끝 */}
