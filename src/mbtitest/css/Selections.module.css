@@ -3,11 +3,11 @@
     width: 250px;
     display:flex;
     align-items: center;
-    color: white;
+    color: rgba(245, 245, 245, 0.969);
     padding:15px;
     font-size:13px;
     border-radius: 10px;
-    background-color: #FFB300;
+    background-color: #F9E183;
     margin: 10px;
     font-family: 'Noto Sans KR', sans-serif;
 }

@@ -5,7 +5,7 @@
     align-items: center;
     width:100%;
     background-image:url("../../../public/background.png");
-    padding-bottom:500px;
+    padding-bottom:300px;
 }
 .title{
     flex-basis:80%;
@@ -33,6 +33,23 @@
     display: flex;
     justify-content: space-evenly;
 }
+.text{
+    margin-bottom: 20px;
+}
 .fake{
     flex-basis:3%;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main img{
+    width: 100px;
+}
+.goquiz{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #F9E183;
 }
