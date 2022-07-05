@@ -12,6 +12,11 @@ function Review(){
                 </div>
             </div>
 
+            <div className={styles.reviewbox}>
+                <div className={styles.tag}>#꾸덕</div>
+                <div className={styles.tag}>#꾸덕</div>
+                <div className={styles.tag}>#꾸덕</div>
+            </div>
 
             <p className={styles.title}>이 가게 다른 메뉴 보기</p>
 
