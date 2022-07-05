@@ -12,7 +12,6 @@ function Product({ name, tag, shopname, likenum, distance, price, img }) {
             <Tag key={i} tag={t}></Tag>
           ))}
         </div>
-        <div className={styles.likenum}>💛{likenum}</div>
       </div>
       <div className={styles.section}>
         <div className={styles.shopanddistance}>
@@ -23,7 +22,16 @@ function Product({ name, tag, shopname, likenum, distance, price, img }) {
           </div>
         </div>
         <div className={styles.name}>{name}</div>
-        <div className={styles.price}>{price}원</div>
+
+        <div className={styles.floor}>
+            <div className={styles.price}>{price}원</div>
+            <div className={styles.likenum}>
+                <img className={styles.ch} src={require(`./img/colored-heart.png`)} alt="noimg"></img>
+                {likenum}
+            </div>
+        </div>
+
+
       </div>
     </div>
   );
