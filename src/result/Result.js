@@ -49,14 +49,13 @@ function Result() {
     <div className={styles.background}>
       <Navbar></Navbar>
       <div className={styles.container}>
-        <Searchbar place={text}></Searchbar>
+        
       <header>
           <Back className={styles.fake}></Back>
           <div className={styles.hebox}>
             <img src={require(`${path}search.png`)} className={styles.searchimg} alt="noimg"></img>
-            <div className={styles.title}>
-                여기
-            </div>
+            <div className={styles.title}></div>
+                <Searchbar place={text}></Searchbar>
             <img src={require(`${path}del.png`)} className={styles.delimg} alt="noimg"></img>
           </div>
       </header>
