@@ -1,5 +1,5 @@
 .data{
-    font-size:10px;
+    font-size:13px;
     background-color: #F1F1F1;
     border-radius: 10px;
     padding:10px;
@@ -18,4 +18,22 @@
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.share{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.retest{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.shareicons{
+    width:80%;
 }
