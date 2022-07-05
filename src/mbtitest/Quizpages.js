@@ -4,6 +4,7 @@ import q from "./contents/Question";
 import Questionbox from "./Questionbox";
 import Selections from "./Selections";
 import Result from "./Result";
+import Navbar from "../nav/Navbar"
 function Quizpages() {
   const [page, setpage] = useState(1);
   const [mbti, setmbti] = useState([0, 0, 0, 0]);
@@ -35,6 +36,7 @@ function Quizpages() {
             ))
           : ""}
       </div>
+      <Navbar></Navbar>
     </div>
   );
 }

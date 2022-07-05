@@ -14,9 +14,9 @@ function Mbtitest() {
         </div>
         <hr></hr>
         <div className={styles.main}>
-          <div className={styles.title}>디저트 테스트</div>
+          {/* <div className={styles.title}>디저트 테스트</div> */}
           <div className={styles.text}>
-            <p>나를 표현한다면</p> <p>어떤 디저트일까?</p>
+            <p>나를 표현한다면 어떤 디저트일까?</p>
           </div>
           <img src={require(`../home/img/thinking.png`)} alt="d" />
           <Link to={"/quiz"} className={styles.goquiz}>
