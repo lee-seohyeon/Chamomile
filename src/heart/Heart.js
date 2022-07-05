@@ -10,7 +10,7 @@ function Heart({ name, tag, shopname, likenum, distance, price, img }) {
             <Header></Header>
             <Navbar></Navbar>
 
-    <div className={styles.section}>
+    {/* <div className={styles.section}>
         <div className={styles.shopanddistance}>
           <div className={styles.shopname}>[ {shopname} ]</div>
           <div className={styles.distance}>
@@ -27,7 +27,7 @@ function Heart({ name, tag, shopname, likenum, distance, price, img }) {
                 {likenum}
             </div>
         </div>
-      </div>
+      </div> */}
 
         </div>
     </div>
