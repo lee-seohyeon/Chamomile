@@ -8,6 +8,7 @@ header{
   display:flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0px;
 }
 .title{
   display:flex;
@@ -27,6 +28,7 @@ header{
   text-shadow: 1px 1px 5px #000;
   margin-top: 6px;
   margin-left: 6px;
+  margin-right: 19px;
 
 }
 
