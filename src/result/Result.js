@@ -6,7 +6,10 @@ import Product from "./Product";
 import { useState } from "react";
 import products from "./products.json";
 import { Link } from "react-router-dom";
+import Back from "../back/Back";
+
 function Result() {
+  const path = "./img/";
   const { text } = useParams();
   const [keyword, setkeyword] = useState(products);
   console.log(products);
@@ -47,6 +50,17 @@ function Result() {
       <Navbar></Navbar>
       <div className={styles.container}>
         <Searchbar place={text}></Searchbar>
+      <header>
+          <Back className={styles.fake}></Back>
+          <div className={styles.hebox}>
+            <img src={require(`${path}search.png`)} className={styles.searchimg} alt="noimg"></img>
+            <div className={styles.title}>
+                여기
+            </div>
+            <img src={require(`${path}del.png`)} className={styles.delimg} alt="noimg"></img>
+          </div>
+      </header>
+        
         <div className={styles.sort}>
           <img src={require(`./img/sort.png`)} alt="img"></img>
           <select onChange={SET}>

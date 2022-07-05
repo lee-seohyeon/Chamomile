@@ -43,3 +43,25 @@ select{
   -moz-appearance: none;
   appearance: none;
 }
+
+.searchimg{
+    width: 22px;
+    margin-right: 6px;
+}
+
+.delimg{
+    width: 35px;
+    margin-left: 187px;
+}
+
+.hebox{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px;
+    width:85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 12px;
+    margin-left: 3px;
+}
