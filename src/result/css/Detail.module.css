@@ -38,10 +38,21 @@
     color: rgba(127, 127, 127, 0.187);
 }
 
-.marketname, .phone, .address{
+.phone, .address{
     font-size: 15px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:400;
+}
+
+.phone{
+    margin-top: 8px;
+}
+
+.marketname{
+    font-size:17px;
+    font-weight:500;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 8px;
 }
 .search{
     display:flex;
@@ -74,16 +85,17 @@
     box-shadow: 5px 5px 5px grey ;
     position:fixed;
     z-index:10000;
-    bottom:10px;
+    bottom:70px;
+    right:10px;
     border-radius: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 4vw;
-    height:4vw;
+    width: 6vw;
+    height:6vw;
     font-size:3vw;
     border-width: 1px;
-    padding: 1vw;
+    padding: 1.5vw;
 }
 .likebutton:active{
     background-color: antiquewhite;
@@ -105,11 +117,25 @@
     margin-top: 10px;
 }
 
-.pricetext, .keyword, .liketext{
+.pricetext{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
     text-decoration: underline #F9E183 5px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
+}
+
+.keyword, .liketext{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    text-decoration: underline #F9E183 5px;
+    margin-bottom: 5px;
+}
+
+.liketext{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    text-decoration: underline #F9E183 5px;
+    margin-bottom: 8px;
 }
 
 .box{
@@ -122,4 +148,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.himg{
+    width: 23px;
 }
