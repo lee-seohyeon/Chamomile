@@ -56,7 +56,7 @@ function Category() {
       <div className={styles.option}>
         <img
           src={require(`${path}scone.png`)}
-          className={styles.img}
+          className={styles.imgscone}
           alt="스콘"
         />
         스콘

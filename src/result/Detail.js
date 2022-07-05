@@ -7,6 +7,7 @@ import LocationMap from "../location/LocationMap";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Navbar from "../nav/Navbar";
+import Review from "../result/Review"
 
 
 function Detail() {
@@ -119,6 +120,7 @@ function Detail() {
             </div>
           </div>
         </div>
+        <Review></Review>
       </div>
     </div>
   );
