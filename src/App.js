@@ -13,6 +13,7 @@ import Roulette from "./Roulette/Roulette";
 import Announce from "./mypage/announce/Announce";
 import Servicecenter from "./mypage/servicecenter/Servicecenter";
 import Quizpages from "./mbtitest/Quizpages";
+import Review from "./result/Review";
 function App() {
   return (
     <BrowserRouter>
@@ -31,6 +32,7 @@ function App() {
         <Route element={<Announce />} path="/announce"></Route>
         <Route element={<Servicecenter />} path="/service"></Route>
         <Route element={<Quizpages />} path="/quiz"></Route>
+        <Route element={<Review />} path="/review"></Route>
       </Routes>
     </BrowserRouter>
   );
