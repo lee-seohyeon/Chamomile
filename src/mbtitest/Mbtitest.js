@@ -20,7 +20,7 @@ function Mbtitest() {
           </div>
           <img src={require(`../home/img/thinking.png`)} alt="d" />
           <Link to={"/quiz"} className={styles.goquiz}>
-            퀴즈하러가기
+            퀴즈풀러가기
           </Link>
         </div>
       </div>

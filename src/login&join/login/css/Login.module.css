@@ -56,11 +56,12 @@
 }
 
 .title{
-    font-size: 6vw;
+    font-size: 27px;
     text-align: center;
     flex-basis: 80%;
     color: #F9E183;
     font-family: 'GmarketSansBold';
+    margin-left: px;
 }
 
 .header{

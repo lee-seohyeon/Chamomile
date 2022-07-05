@@ -45,6 +45,7 @@
 .png img{
     display:blcok;
     width:100px;
+    margin-bottom: 16px;
 }
 .png{
     width:100%;
