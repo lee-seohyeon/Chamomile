@@ -15,7 +15,7 @@ function Product({ name, tag, shopname, likenum, distance, price, img }) {
       </div>
       <div className={styles.section}>
         <div className={styles.shopanddistance}>
-          <div className={styles.shopname}>[ {shopname} ]</div>
+          <div className={styles.shopname}>{shopname}</div>
           <div className={styles.distance}>
             <img src={require(`./img/pin.png`)} alt="pin"></img>
             <div className={styles.distnum}>{distance}</div>m
@@ -30,8 +30,6 @@ function Product({ name, tag, shopname, likenum, distance, price, img }) {
                 {likenum}
             </div>
         </div>
-
-
       </div>
     </div>
   );
