@@ -38,10 +38,21 @@
     color: rgba(127, 127, 127, 0.187);
 }
 
-.marketname, .phone, .address{
+.phone, .address{
     font-size: 15px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:400;
+}
+
+.phone{
+    margin-top: 8px;
+}
+
+.marketname{
+    font-size:17px;
+    font-weight:500;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 8px;
 }
 .search{
     display:flex;
