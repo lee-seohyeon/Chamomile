@@ -32,7 +32,11 @@ function Searchbar({ place }) {
           autoFocus
         ></input>
         <Link to={`/result/${text}`} className={styles.submit}>
-          <img src={require(`./search.png`)} alt="s"></img>
+          {place === "지금 먹고 싶은 디저트는?" ? (
+            <img src={require(`./search.png`)} alt="s"></img>
+          ) : (
+            ""
+          )}
         </Link>
       </div>
     </div>

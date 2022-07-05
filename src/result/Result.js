@@ -49,17 +49,24 @@ function Result() {
     <div className={styles.background}>
       <Navbar></Navbar>
       <div className={styles.container}>
-        
-      <header>
+        <div className={styles.header}>
           <Back className={styles.fake}></Back>
           <div className={styles.hebox}>
-            <img src={require(`${path}search.png`)} className={styles.searchimg} alt="noimg"></img>
+            <img
+              src={require(`${path}search.png`)}
+              className={styles.searchimg}
+              alt="noimg"
+            ></img>
             <div className={styles.title}></div>
-                <Searchbar place={text}></Searchbar>
-            <img src={require(`${path}del.png`)} className={styles.delimg} alt="noimg"></img>
+            <Searchbar place={text}></Searchbar>
+            <img
+              src={require(`${path}del.png`)}
+              className={styles.delimg}
+              alt="noimg"
+            ></img>
           </div>
-      </header>
-        
+        </div>
+
         <div className={styles.sort}>
           <img src={require(`./img/sort.png`)} alt="img"></img>
           <select onChange={SET}>
