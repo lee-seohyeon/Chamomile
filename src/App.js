@@ -15,6 +15,7 @@ import Servicecenter from "./mypage/servicecenter/Servicecenter";
 import Quizpages from "./mbtitest/Quizpages";
 import Review from "./result/Review";
 import Product from "./result/Product";
+import Write from "./result/Write";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route element={<Quizpages />} path="/quiz"></Route>
         <Route element={<Review />} path="/review"></Route>
         <Route element={<Product />} path="/product"></Route>
+        <Route element={<Write />} path="/write"></Route>
       </Routes>
     </BrowserRouter>
   );
