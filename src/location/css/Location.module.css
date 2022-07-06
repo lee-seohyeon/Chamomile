@@ -22,12 +22,19 @@ hr{
     width:100%;
 }
 .text{
+    width:100%;
+    text-align: left;
     font-size:20px;
-    text-align:center;
+    text-decoration: underline;
+    text-decoration-color:#F9E183;
+    text-decoration-thickness: 5px;
+    text-underline-offset: -5px;
+
 }
 .around{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: space-evenly;
 }
 .header{
@@ -42,4 +49,11 @@ hr{
 
 .postcontainer{
     display: flex;
+}
+.cat{
+    display:flex;
+    width:100%;
+}
+.cat img{
+    width: 25px;
 }
