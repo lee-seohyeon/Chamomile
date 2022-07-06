@@ -2,6 +2,7 @@ import styles from "./css/Review.module.css";
 import products from "./products.json";
 import { useParams } from "react-router-dom";
 import Tag from "./Tag";
+import { Link } from "react-router-dom";
 
 function Review(){
     const path = "./img/";
@@ -20,7 +21,7 @@ function Review(){
                 <p className={styles.title}>후기</p>
                 <div className={styles.writebox}>
                     <img src={require(`${path}pencil.png`)} className={styles.pencilimg} alt="noimg"></img>
-                    <p className={styles.write}>작성하기</p>
+                    <Link to="/Write"><p className={styles.write}>작성하기</p></Link>
                 </div>
             </div>
 
