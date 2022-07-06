@@ -18,3 +18,28 @@
     width: 78%;
     padding-bottom: 40px;
 }
+progress{
+    -webkit-appearance:none;
+    width:80%;
+    height:25px;
+
+}
+::-webkit-progress-bar{
+    background-color:grey;
+    border-radius: 10px;
+}
+::-webkit-progress-value{
+    background-color:#F9E183;
+    border-radius:10px;
+}
+.header{
+    display:flex;
+    position:relative;
+    width:100%;
+    justify-content: center;
+}
+.flower{
+    position:absolute;
+    left:30px;
+    top:-5px;
+}

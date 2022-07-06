@@ -4,10 +4,11 @@ import q from "./contents/Question";
 import Questionbox from "./Questionbox";
 import Selections from "./Selections";
 import Result from "./Result";
-import Navbar from "../nav/Navbar"
+import Navbar from "../nav/Navbar";
 function Quizpages() {
   const [page, setpage] = useState(1);
   const [mbti, setmbti] = useState([0, 0, 0, 0]);
+  const leftnum = (234.11 / 12) * page;
   function changepage() {
     setpage(page + 1);
   }
@@ -16,7 +17,21 @@ function Quizpages() {
       <div className={styles.container}>
         {page <= 12 ? (
           <>
-            <progress value={page} max="12"></progress>
+            <div className={styles.header}>
+              <div
+                className={styles.flower}
+                style={{
+                  left: `${leftnum}px`,
+                }}
+              >
+                <img
+                  src={require(`./img/flower.png`)}
+                  alt="flower"
+                  width="35px"
+                ></img>
+              </div>
+              <progress value={page} max="12"></progress>
+            </div>
             <Questionbox question={q[page - 1].question}></Questionbox>
           </>
         ) : (
