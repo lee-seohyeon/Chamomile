@@ -32,7 +32,8 @@
     display:flex;
 }
 .price{
-    font-family: 'GmarketSansBold';
+    /* font-family: 'GmarketSans'; */
+    font-weight: 400;
 }
 .shopanddistance{
     display: flex;

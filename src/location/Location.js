@@ -16,7 +16,7 @@ function Location() {
       <div className={styles.container}>
         <div className={styles.header}>
           <Back className={styles.fake}></Back>
-          <div className={styles.title}>내위치</div>
+          <div className={styles.title}>내 주변</div>
           <div className={styles.fake}></div>
         </div>
         <hr></hr>
