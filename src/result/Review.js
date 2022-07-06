@@ -37,6 +37,11 @@ function Review(){
             </div>
 
             <p className={styles.title}>이 가게 다른 메뉴 보기</p>
+            <div className={styles.anotherimgbox}>
+                <img src={require(`${path}another1.png`)} className={styles.anotherimg} alt="noimg"></img>
+                <img src={require(`${path}another2.png`)} className={styles.anotherimg} alt="noimg"></img>
+            </div>
+
 
         </>
     );
