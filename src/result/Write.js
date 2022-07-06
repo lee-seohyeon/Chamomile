@@ -2,10 +2,18 @@ import styles from "./css/Write.module.css";
 import Back from "../back/Back";
 import Navbar from "../nav/Navbar";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 
 function Write(){
     const path = "./img/";
+// 누르면 색깔 바뀌게
+    const [color, setcolor] = useState("white");
+    const [like, islike] = useState(false);
+    useEffect(() => {
+        like ? setcolor("#F9E183 ") : setcolor("white");
+      }, [like]);
+
     return(
         <>
             <div className={styles.background}>
@@ -23,7 +31,7 @@ function Write(){
 {/* 식감 */}
                     <div className={styles.subtitle}> 식감 </div>
                     <div className={styles.contentbox}>
-                        <div className={styles.content}># 꾸덕 </div>
+                        <div className={styles.content} style={{ backgroundColor: `${color}` }} onClick={() => {like ? islike(false) : islike(true);}}># 꾸덕 </div>
                         <div className={styles.content}># 바삭 </div>
                         <div className={styles.content}># 촉촉 </div>
                         <div className={styles.content}># 겉바속촉 </div>
@@ -81,6 +89,10 @@ function Write(){
                     <Link to={"/"} className={styles.submit}>
                         리뷰 등록
                     </Link>
+
+                    <div className={styles.likebutton} style={{ backgroundColor: `${color}` }} onClick={() => {like ? islike(false) : islike(true);}}> 
+                        가나다라마바사
+                    </div>
 
                 </div> {/* container 끝 */}
             </div>
