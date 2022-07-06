@@ -12,7 +12,7 @@ function Story() {
         <img src={require(`${path}here-3.png`)} className={styles.hereimg} alt="noimg"></img>
 
 
-        <div className={styles.subtitle}>이번 달 우리 동네 이야기</div>
+        <div className={styles.subtitle}>이번 달 우리 동네 이야기 왜안돼</div>
         <img src={require(`${path}story.png`)} className={styles.storyimg} alt="noimg"></img>
 
         <hr></hr>
