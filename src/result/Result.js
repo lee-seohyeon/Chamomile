@@ -90,10 +90,11 @@ function Result() {
 
         <div className={styles.products}>
           {keyword.map((data, i) => (
-            <Link to={`/detail/${data.name}`}>
+            <Link to={`/detail/${data.id}`}>
               <Product
                 key={i}
                 name={data && data.name}
+                id={data && data.id}
                 tag={data && data.tag_set}
                 shopname={data && data.shop}
                 likenum={data && data.likenum}

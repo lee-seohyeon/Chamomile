@@ -1,6 +1,6 @@
 import styles from "./css/Product.module.css";
 import Tag from "./Tag";
-function Product({ name, tag, shopname, likenum, distance, price, img }) {
+function Product({ name, id, tag, shopname, likenum, distance, price, img }) {
   return (
     <div className={styles.container}>
       <div className={styles.img}>
