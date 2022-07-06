@@ -46,7 +46,7 @@ function Result() {
     sorting(e.target.value);
   };
   return (
-    <div className={styles.background}>
+    <div className={styles.background} >
       <Navbar></Navbar>
       <div className={styles.container}>
         <div className={styles.header}>
@@ -66,8 +66,11 @@ function Result() {
             ></img>
           </div>
         </div>
+        
+        <img src={require(`./img/tagbar.png`)} className={styles.tagbar} alt="img"></img>
 
         <div className={styles.sort}>
+        <img src={require(`${path}filter.png`)} className={styles.filterimg} alt="noimg" onClick={() => window.open('https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d093a6ab-3de4-4ed5-92ca-05a527d0d6f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220706T100949Z&X-Amz-Expires=86400&X-Amz-Signature=2e77ac8d6de0f49c9bb052ecda51e08c9f5abf6f20f56989ef0b28c7dc711e9f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject', '_blank')}></img> 
           <img src={require(`./img/sort.png`)} alt="img"></img>
           <select onChange={SET}>
             <option value="1">가까운 순 </option>
@@ -76,6 +79,7 @@ function Result() {
             <option value="4">가격 낮은 순</option>
           </select>
         </div>
+
         <div className={styles.products}>
           {keyword.map((data, i) => (
             <Link to={`/detail/${data.name}`}>

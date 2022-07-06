@@ -4,13 +4,22 @@ import styles from "./css/Tagbutton.module.css";
 const Tagbutton = ({ text }) => {
   const [color, setcolor] = useState("white");
   const [like, islike] = useState(false);
+  const [width,setwidth]=useState(1);
+  const isLike=()=>{
+    setcolor("#FFC700 ");
+    setwidth("2px");
+  };
+  const isntLike=()=>{
+    setcolor("#D9D9D9");
+    setwidth("1px");
+  };
   useEffect(() => {
-    like ? setcolor("#F9E183 ") : setcolor("white");
+    like ? isLike() : isntLike()
   }, [like]);
   return (
     <div
       className={styles.content}
-      style={{ backgroundColor: `${color}` }}
+      style={{ borderColor: `${color}`, borderWidth:`${width}`}}
       onClick={() => {
         like ? islike(false) : islike(true);
       }}

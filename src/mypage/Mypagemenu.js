@@ -11,6 +11,13 @@ function Mypagemenu() {
     </div>
 
 
+            <div className={styles.menu}>
+                <div className={styles.content}>내 가게 관리</div>
+                <div className={styles.postgo}> &gt; </div>
+            </div>
+            <hr className={styles.line}></hr>
+
+
         <div className={styles.menu}>
             <div className={styles.content}>내가 쓴 리뷰</div>
             <div className={styles.postgo}> &gt; </div>
@@ -29,6 +36,9 @@ function Mypagemenu() {
             <div className={styles.postgo}> &gt; </div>
         </div>
         <hr className={styles.line}></hr>
+
+
+
 
         <Link to="/Announce">
             <div className={styles.menu}>
