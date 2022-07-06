@@ -23,7 +23,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Result />} path="/result/:text"></Route>
-        <Route element={<Detail />} path="/detail/:name"></Route>
+        <Route element={<Detail />} path="/detail/:id"></Route>
         <Route element={<Home />} path="/"></Route>
         <Route element={<Searchwindow />} path="/search"></Route>
         <Route element={<Heart />} path="/heart"></Route>
