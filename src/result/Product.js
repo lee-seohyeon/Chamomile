@@ -4,7 +4,7 @@ function Product({ name, tag, shopname, likenum, distance, price, img }) {
   return (
     <div className={styles.container}>
       <div className={styles.img}>
-        <img src={require(`${img}`)} alt="alt"></img>
+        <img src={img} alt="alt"></img>
       </div>
       <div className={styles.tagandlike}>
         <div className={styles.tags}>
@@ -24,11 +24,15 @@ function Product({ name, tag, shopname, likenum, distance, price, img }) {
         <div className={styles.name}>{name}</div>
 
         <div className={styles.floor}>
-            <div className={styles.price}>{price}원</div>
-            <div className={styles.likenum}>
-                <img className={styles.ch} src={require(`./img/colored-heart.png`)} alt="noimg"></img>
-                {likenum}
-            </div>
+          <div className={styles.price}>{price}원</div>
+          <div className={styles.likenum}>
+            <img
+              className={styles.ch}
+              src={require(`./img/colored-heart.png`)}
+              alt="noimg"
+            ></img>
+            {likenum}
+          </div>
         </div>
       </div>
     </div>

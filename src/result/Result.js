@@ -3,16 +3,24 @@ import Searchbar from "../search/Searchbar";
 import Navbar from "../nav/Navbar";
 import styles from "./css/Result.module.css";
 import Product from "./Product";
-import { useState } from "react";
-import products from "./products.json";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Back from "../back/Back";
 
 function Result() {
-  const path = "./img/";
   const { text } = useParams();
-  const [keyword, setkeyword] = useState(products);
-  console.log(products);
+  const [keyword, setkeyword] = useState([]);
+  const getproducts = async () => {
+    const response = await fetch(
+      `http://api-chamomile.kro.kr/products/?name=${text}`
+    );
+    const json = await response.json();
+    setkeyword(json.data);
+    console.log(json.data);
+  };
+  const path = "./img/";
+
+  useEffect(() => getproducts, []);
   function sorting(sort) {
     const sortarr = keyword.concat();
     if (sort === "1") {
@@ -86,10 +94,10 @@ function Result() {
               <Product
                 key={i}
                 name={data && data.name}
-                tag={data && data.tag}
-                shopname={data && data.shopname}
+                tag={data && data.tag_set}
+                shopname={data && data.shop}
                 likenum={data && data.likenum}
-                distance={data && data.distance}
+                distance={data && data.likenum}
                 price={data && data.price}
                 img={data && data.img}
               ></Product>
