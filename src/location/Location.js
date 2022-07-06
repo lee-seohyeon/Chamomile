@@ -5,6 +5,7 @@ import Around from "./Around";
 import { useState } from "react";
 import Back from "../back/Back";
 import Loading from "../loading/Loading";
+import Story from "./Story";
 function Location() {
   const [data, setData] = useState([]);
   const [location, setLocation] = useState([]);
@@ -38,6 +39,7 @@ function Location() {
             ))}
           </div>
         </div>
+        <Story></Story>
       </div>
     </div>
   );
