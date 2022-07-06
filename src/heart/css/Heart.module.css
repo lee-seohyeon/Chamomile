@@ -19,3 +19,22 @@
     width: 82%;
 }
 
+.heartimg{
+    width: 140px;
+    margin:0;
+    margin-right: 5px;
+}
+
+.imgcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heartimg3{
+    width: 140px;
+    margin:0;
+    margin-right: 150px;
+    margin-top: 10px;
+}
