@@ -1,0 +1,27 @@
+.subtitle{
+    width:100%;
+    text-align: left;
+    font-size:15px;
+    text-decoration: underline;
+    text-decoration-color:#F9E183;
+    text-decoration-thickness: 5px;
+    text-underline-offset: -5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+
+.heretext{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    display: flex;
+    margin-right: 137px;
+    color: gray;
+}
+
+.hereimg{
+    width:140px;
+}
+
+.storyimg{
+    width:100px;
+}
