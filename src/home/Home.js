@@ -19,7 +19,7 @@ function Home() {
         <div className={styles.title}>
           <img
             className={styles.logo}
-            src={require("./img/main.png")}
+            src={require("./img/flowerlogo.png")}
             alt="logo"
           />
           <div className={styles.titletext}>카모마일</div>

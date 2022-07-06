@@ -31,10 +31,8 @@ function Review(){
                         <Tag key={t} tag={t}></Tag>
                         ))}
                 </div>
-                
-
-
             </div>
+
 
             <p className={styles.title}>이 가게 다른 메뉴 보기</p>
             <div className={styles.anotherimgbox}>
