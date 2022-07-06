@@ -1,13 +1,7 @@
 import styles from "./css/Story.module.css";
 
-function Story (){
-    return(
-        <> 
-
-<p>가나다라</p>
-
-        </>
-    )
+function Story() {
+  return <></>;
 }
 
 export default Story;
