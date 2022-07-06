@@ -17,6 +17,7 @@ import Review from "./result/Review";
 import Product from "./result/Product";
 import Write from "./result/Write";
 import Story from "./location/Story";
+import Boss from "./mypage/boss/Boss";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route element={<Product />} path="/product"></Route>
         <Route element={<Write />} path="/write"></Route>
         <Route element={<Story />} path="/story"></Route>
+        <Route element={<Boss/>} path="/boss"></Route>
       </Routes>
     </BrowserRouter>
   );

@@ -10,12 +10,13 @@ function Mypagemenu() {
         <div className={styles.name}>미미</div>
     </div>
 
-
+        <Link to="/Boss">
             <div className={styles.menu}>
                 <div className={styles.content}>내 가게 관리</div>
                 <div className={styles.postgo}> &gt; </div>
             </div>
             <hr className={styles.line}></hr>
+        </Link>
 
 
         <div className={styles.menu}>
@@ -36,7 +37,6 @@ function Mypagemenu() {
             <div className={styles.postgo}> &gt; </div>
         </div>
         <hr className={styles.line}></hr>
-
 
 
 
