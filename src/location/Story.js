@@ -14,11 +14,23 @@ function Story() {
         </div>
 
         <div className={styles.subtitle}>이번 달 우리 동네 이야기</div>
-        <img src={require(`${path}story.png`)} className={styles.storyimg} alt="noimg"></img>
-        만드는 중 ㅜㅜ
-
+        <div className={styles.cucubox}>
+            <img src={require(`${path}story.png`)} className={styles.storyimg} alt="noimg"></img>
+            <div className={styles.cucutextbox}>
+                <div className={styles.cucutext}>2022.07</div>
+                <div className={styles.cucutext2}>쿠쿠와 시작한 새로운 삶</div>
+                <div className={styles.cucutext}> [ Hi, there ] 의 김마일 사장님</div>
+                <div className={styles.cucutext3}> 베이커리 [ Hi, there ] 의 인기스타 쿠쿠!</div>
+                <div className={styles.cucutext4}> 쿠쿠와 인연을 시작하게 된 사장님의 이야기를 들어보세요 :)</div>
+            </div>
+        </div>
 
         <hr></hr>
+        <div className={styles.newimgbox}>
+            <img src={require(`${path}new1.png`)} className={styles.newimg} alt="noimg"></img>
+            <img src={require(`${path}new2.png`)} className={styles.newimg} alt="noimg"></img>
+        </div>
+        
     </>
   )
 }

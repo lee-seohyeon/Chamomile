@@ -35,6 +35,14 @@ function Boss(){
                     <div className={styles.subtitle}>거리</div>
                     <img className={styles.mbar} src={require("./img/mbar.png")} alt="alt"></img>
 
+                    
+
+                    <div className={styles.floor}>
+                        <img className={styles.reset} src={require("./img/reset.png")} alt="alt"></img>
+                        <div className={styles.select}>선택 완료</div>
+                    </div>
+
+
 
             </div>
         </div>

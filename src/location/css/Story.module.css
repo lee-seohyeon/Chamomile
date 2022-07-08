@@ -27,6 +27,7 @@
     width:100px;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-right: 10px;
 }
 
 .imgbox{
@@ -37,4 +38,46 @@
 
 .omgimg{
     width: 300px;
+}
+
+.newimg{
+    width: 100px;
+}
+
+.newimgbox{
+    display: flex;
+    margin-right: 90px;
+}
+
+.cucutextbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.cucubox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cucutext{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+}
+
+.cucutext2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cucutext3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px; 
+    margin-top: 10px;
+}
+
+.cucutext4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px; 
 }

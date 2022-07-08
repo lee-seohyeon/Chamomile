@@ -25,11 +25,11 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 .fake{
-    flex-basis:9%;
+    flex-basis:12%;
 }
 
 .title{
@@ -51,6 +51,7 @@
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
     margin-bottom: 11px;
+    margin-top: 20px;
 }
 
 
@@ -141,3 +142,24 @@
     width: 300px;
 }
 
+
+.reset{
+    width: 70px;
+}
+
+.select{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    background-color:#000000;
+    border-radius:15px;
+    padding: 2px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.floor{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
