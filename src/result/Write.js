@@ -74,6 +74,10 @@ function Write() {
             ))}
           </div>
 
+          <div className={styles.contentbox}>
+            <div className={styles.content}> + 태그 추가 건의하기</div> 
+          </div>
+
           {/* 사진추가 */}
           <div className={styles.addpic2}>
             <div className={styles.addpic}>

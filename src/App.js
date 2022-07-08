@@ -18,6 +18,7 @@ import Product from "./result/Product";
 import Write from "./result/Write";
 import Story from "./location/Story";
 import Boss from "./mypage/boss/Boss";
+import Filterpage from "./result/Filterpage"
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route element={<Write />} path="/write"></Route>
         <Route element={<Story />} path="/story"></Route>
         <Route element={<Boss/>} path="/boss"></Route>
+        <Route element={<Filterpage/>} path="/filterpage"></Route>
       </Routes>
     </BrowserRouter>
   );
