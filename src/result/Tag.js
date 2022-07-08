@@ -1,5 +1,6 @@
 import styles from "./css/Tag.module.css";
 function Tag({ tag }) {
+  
   let tagcolor;
   if (tag === "꾸덕") {
     tagcolor = "#A37B4B";
@@ -17,6 +18,8 @@ function Tag({ tag }) {
     tagcolor = "#2A1A08";
   } else if (tag === "피칸") {
     tagcolor = "#643D13";
+  } else if (tag === "부드러움") {
+    tagcolor = "#F2E056";
   } else {
     tagcolor = "#A7A7A7";
   }
