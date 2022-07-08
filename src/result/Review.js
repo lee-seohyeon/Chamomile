@@ -24,7 +24,7 @@ function Review({ tag }) {
 
       <div className={styles.reviewbox}>
         <div className={styles.tags}>
-          {tag ? tag.map((t) => <Tag key={t} tag={t}></Tag>) : ""}
+          {tag ? tag.map((t) => <Tag key={t} tag={t.name}></Tag>) : ""}
         </div>
       </div>
 

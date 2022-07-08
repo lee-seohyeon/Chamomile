@@ -28,7 +28,7 @@ function Result() {
         arr[x].name = arr[x].name.substring(0, 6) + "...";
       }
       arr[x]["distance"] = (arr.length - x) * 10;
-      arr[x]["reviewnum"] = (arr.length - x) * 10;
+      arr[x]["reviewnum"] = x * 10;
     }
     console.log(arr);
     setkeyword(arr);
@@ -85,8 +85,13 @@ function Result() {
               alt="noimg"
             ></img>
           </div>
-          <Link to="/Filterpage"><img src={require(`${path}filter.png`)} className={styles.filterimg} alt="noimg"></img> </Link>
-          
+          <Link to="/Filterpage">
+            <img
+              src={require(`${path}filter.png`)}
+              className={styles.filterimg}
+              alt="noimg"
+            ></img>{" "}
+          </Link>
         </div>
 
         <img
@@ -96,7 +101,6 @@ function Result() {
         ></img>
 
         <div className={styles.sort}>
-
           <img src={require(`./img/sort.png`)} alt="img"></img>
           <select onChange={SET}>
             <option value="1">가까운 순 </option>
