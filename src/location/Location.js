@@ -6,10 +6,24 @@ import { useState } from "react";
 import Back from "../back/Back";
 import Loading from "../loading/Loading";
 import Story from "./Story";
+const { kakao } = window;
 function Location() {
   const [data, setData] = useState([]);
   const [location, setLocation] = useState([]);
   const [toggle, setToggle] = useState(false);
+  const [address, setaddress] = useState("");
+  function getAddr(lat, lng) {
+    let geocoder = new kakao.maps.services.Geocoder();
+
+    let coord = new kakao.maps.LatLng(lat, lng);
+    let callback = function (result, status) {
+      if (status === kakao.maps.services.Status.OK) {
+        setaddress(result[0].address.address_name);
+      }
+    };
+    geocoder.coord2Address(coord.getLng(), coord.getLat(), callback);
+  }
+  getAddr(location[0], location[1]);
   return (
     <div className={styles.background}>
       {data.length !== 0 ? "" : <Loading></Loading>}
@@ -19,6 +33,7 @@ function Location() {
           <div className={styles.title}>내 주변</div>
           <div className={styles.fake}></div>
         </div>
+        <div className={styles.address}>{address}</div>
         <hr></hr>
         <LocationMap setData={setData} setLocation={setLocation}></LocationMap>
 
@@ -33,7 +48,7 @@ function Location() {
           <div className={styles.text}>주변 가게</div>
           <img
             src={
-              toggle ? require(`./img/toggle.png`) : require(`./img/cancel.png`)
+              toggle ? require(`./img/cancel.png`) : require(`./img/toggle.png`)
             }
             alt="z"
           ></img>

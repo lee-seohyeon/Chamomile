@@ -12,7 +12,8 @@
     width: 140px;
     height:140px;
     object-fit:cover;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .img{
     width: 130px;
@@ -32,13 +33,14 @@
     display:flex;
 }
 .price{
-    /* font-family: 'GmarketSans'; */
-    font-weight: 400;
+    /* font-family: 'GmarketSansBold'; */
+    font-weight: 600;
 }
 .shopanddistance{
     display: flex;
     margin:0px;
     padding:0px;
+    align-items: center;
 }
 .distance{
     border-left: solid;
@@ -47,13 +49,14 @@
     display: flex;
     font-size:1px;
     border-color:gray;
+    align-items: center;
 }
 .distance img{
-    width: 10px;
-    height:10px;
+    width: 12px;
+    height:9px;
 }
 .name{
-    font-weight: bolder;
+
     padding:0px;
 }
 .shopname{
