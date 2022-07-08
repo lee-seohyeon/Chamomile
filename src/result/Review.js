@@ -1,10 +1,9 @@
 import styles from "./css/Review.module.css";
-import products from "./products.json";
-import { useParams } from "react-router-dom";
-import Tag from "./Tag";
+import Product from "./Product";
+import ReviewTag from "./ReviewTag";
 import { Link } from "react-router-dom";
 
-function Review({ tag }) {
+function Review({ tag, shop }) {
   const path = "./img/";
   return (
     <>
@@ -21,25 +20,30 @@ function Review({ tag }) {
           </Link>
         </div>
       </div>
-
       <div className={styles.reviewbox}>
         <div className={styles.tags}>
-          {tag ? tag.map((t) => <Tag key={t} tag={t.name}></Tag>) : ""}
+          {tag
+            ? tag.map((t, i) => <ReviewTag key={i} tag={t.name}></ReviewTag>)
+            : ""}
         </div>
       </div>
-
       <p className={styles.title}>이 가게 다른 메뉴 보기</p>
       <div className={styles.anotherimgbox}>
-        <img
-          src={require(`${path}another1.png`)}
-          className={styles.anotherimg}
-          alt="noimg"
-        ></img>
-        <img
-          src={require(`${path}another2.png`)}
-          className={styles.anotherimg}
-          alt="noimg"
-        ></img>
+        {shop.map((data, i) => (
+          <Link to={`/detail/${data.id}`}>
+            <Product
+              key={i}
+              name={data && data.name}
+              id={data && data.id}
+              tag={data && data.tag_set}
+              shopname={data && data.shop}
+              likenum={data && data.likenum}
+              distance={data && data.distance}
+              price={data && data.price}
+              img={data && data.img}
+            ></Product>
+          </Link>
+        ))}
       </div>
     </>
   );

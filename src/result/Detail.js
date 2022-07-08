@@ -12,17 +12,33 @@ function Detail() {
   const path = "./img/";
   const { id } = useParams();
   const [data, setdata] = useState([]);
-  console.log(id);
   const getproducts = async () => {
     const response = await fetch(`http://api-chamomile.kro.kr/products/${id}`);
     const json = await response.json();
+    const response2 = await fetch(
+      `http://api-chamomile.kro.kr/products/?name=`
+    );
+    const json2 = await response2.json();
+    let arr = json2.data.concat();
+    let newarr = [];
+    for (let x = 0; x < arr.length; x++) {
+      if (arr[x].name.length > 7) {
+        arr[x].name = arr[x].name.substring(0, 6) + "...";
+      }
+      arr[x]["distance"] = (arr.length - x) * 10;
+      arr[x]["reviewnum"] = x * 10;
+      if (arr[x].shop === json.data.shop) {
+        newarr.push(arr[x]);
+      }
+    }
     setdata(json.data);
-    console.log(json.data);
+    setkeyword(newarr);
   };
-  useEffect(() => getproducts, []);
+  const [keyword, setkeyword] = useState([]);
+  useEffect(() => getproducts, [id]);
   const [location, setLocation] = useState([]);
   const copy = () => {
-    navigator.clipboard.writeText(data.shop);
+    navigator.clipboard.writeText(D[0].address_name);
   };
   const [color, setcolor] = useState("white");
   const [like, islike] = useState(false);
@@ -65,13 +81,13 @@ function Detail() {
             <div className={styles.keyword}>키워드</div>
             <div className={styles.tags}>
               {data.tag_set
-                ? data.tag_set.map((t) => <Tag key={t} tag={t.name}></Tag>)
+                ? data.tag_set.map((t, i) => <Tag key={i} tag={t.name}></Tag>)
                 : ""}
             </div>
           </div>
 
           <div className={styles.box}>
-            <div className={styles.liketext}>좋아요</div>
+            <div className={styles.liketext}>찜</div>
             <div className={styles.like}>
               <img
                 src={require(`${path}colored-heart.png`)}
@@ -86,8 +102,7 @@ function Detail() {
 
         <div className={styles.productinfo}>
           <div className={styles.introduce}>
-            <p>대충 맛있다는 내용입니다.</p>
-            <p>대충 맛있다는 내용이라구요.</p>
+            {data && data.description}
             <div className={styles.line1}></div>
           </div>
           <br></br>
@@ -99,11 +114,10 @@ function Detail() {
                 setData={setD}
                 setLocation={setLocation}
               ></LocationMap>
-              {console.log(D)}
             </div>
-            <div className={styles.phone}>📞 phonenum</div>
+            <div className={styles.phone}>📞 {D[0] && D[0].phone}</div>
             <div className={styles.address}>
-              📍주소입니다.
+              📍{D[0] && D[0].address_name}
               <button
                 className={styles.copy}
                 onClick={() => {
@@ -116,7 +130,7 @@ function Detail() {
             </div>
           </div>
         </div>
-        <Review tag={data.tag_set}></Review>
+        <Review tag={data.tag_set} shop={keyword}></Review>
       </div>
     </div>
   );

@@ -32,7 +32,8 @@
 
 .imgbox{
     display:flex;
-    flex-wrap: wrap;
+    overflow:scroll;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -46,9 +47,12 @@
 
 .newimgbox{
     display: flex;
-    margin-right: 90px;
 }
 
+.newimgbox img{
+    width: 135px;
+    margin:5px;
+}
 .cucutextbox{
     display: flex;
     flex-direction: column;

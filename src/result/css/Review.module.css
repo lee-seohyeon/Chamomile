@@ -38,8 +38,8 @@
 }
 
 .tags{
-    width: 120px;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     margin: 0px;
 }
@@ -51,5 +51,6 @@
 .anotherimgbox{
     margin-top: 20px;
     display: flex;
-    /* justify-content: center; */
+    width:100%;
+    overflow:scroll;
 }

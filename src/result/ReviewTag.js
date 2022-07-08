@@ -1,5 +1,5 @@
-import styles from "./css/Tag.module.css";
-function Tag({ tag }) {
+import styles from "./css/ReviewTag.module.css";
+function ReviewTag({ tag }) {
   let tagcolor;
   if (tag === "꾸덕") {
     tagcolor = "#A37B4B";
@@ -55,4 +55,4 @@ function Tag({ tag }) {
   );
 }
 
-export default Tag;
+export default ReviewTag;

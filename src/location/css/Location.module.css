@@ -13,8 +13,12 @@
     background-color: #ffffff;
     border-radius: 25px;
 }
+.address{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 8px;
+}
 .title{
-    font-size: 6vw;
+    font-size: 23px;
     text-align: center;
     flex-basis: 80%;
     font-family: 'Noto Sans KR', sans-serif;

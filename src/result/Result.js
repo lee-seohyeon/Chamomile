@@ -6,7 +6,7 @@ import Product from "./Product";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Back from "../back/Back";
-
+const path = "./img/";
 function Result() {
   const { text } = useParams();
   const [keyword, setkeyword] = useState([]);
@@ -17,10 +17,7 @@ function Result() {
     const json = await response.json();
     likenum(json.data);
   };
-  const path = "./img/";
-
   useEffect(() => getproducts, []);
-
   function likenum(arr) {
     for (let x = 0; x < arr.length; x++) {
       console.log(arr[x].name.length);
@@ -30,7 +27,6 @@ function Result() {
       arr[x]["distance"] = (arr.length - x) * 10;
       arr[x]["reviewnum"] = x * 10;
     }
-    console.log(arr);
     setkeyword(arr);
   }
   function sorting(sort) {
@@ -85,13 +81,6 @@ function Result() {
               alt="noimg"
             ></img>
           </div>
-          <Link to="/Filterpage">
-            <img
-              src={require(`${path}filter.png`)}
-              className={styles.filterimg}
-              alt="noimg"
-            ></img>{" "}
-          </Link>
         </div>
 
         <img
@@ -99,15 +88,19 @@ function Result() {
           className={styles.tagbar}
           alt="img"
         ></img>
-
         <div className={styles.sort}>
-          <img src={require(`./img/sort.png`)} alt="img"></img>
-          <select onChange={SET}>
-            <option value="1">가까운 순 </option>
-            <option value="2">리뷰 많은 순</option>
-            <option value="3">찜 많은 순</option>
-            <option value="4">가격 낮은 순</option>
-          </select>
+          <Link to="/Filterpage" className={styles.filterimg}>
+            <img src={require(`${path}filter.png`)} alt="noimg"></img>{" "}
+          </Link>
+          <div className={styles.realsort}>
+            <img src={require(`./img/sort.png`)} alt="img"></img>
+            <select onChange={SET}>
+              <option value="1">가까운 순 </option>
+              <option value="2">리뷰 많은 순</option>
+              <option value="3">찜 많은 순</option>
+              <option value="4">가격 낮은 순</option>
+            </select>
+          </div>
         </div>
 
         <div className={styles.products}>
