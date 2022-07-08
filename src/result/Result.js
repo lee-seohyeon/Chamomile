@@ -15,12 +15,24 @@ function Result() {
       `http://api-chamomile.kro.kr/products/?name=${text}`
     );
     const json = await response.json();
-    setkeyword(json.data);
-    console.log(json.data);
+    likenum(json.data);
   };
   const path = "./img/";
 
   useEffect(() => getproducts, []);
+
+  function likenum(arr) {
+    for (let x = 0; x < arr.length; x++) {
+      console.log(arr[x].name.length);
+      if (arr[x].name.length > 7) {
+        arr[x].name = arr[x].name.substring(0, 6) + "...";
+      }
+      arr[x]["distance"] = (arr.length - x) * 10;
+      arr[x]["reviewnum"] = (arr.length - x) * 10;
+    }
+    console.log(arr);
+    setkeyword(arr);
+  }
   function sorting(sort) {
     const sortarr = keyword.concat();
     if (sort === "1") {
@@ -54,7 +66,7 @@ function Result() {
     sorting(e.target.value);
   };
   return (
-    <div className={styles.background} >
+    <div className={styles.background}>
       <Navbar></Navbar>
       <div className={styles.container}>
         <div className={styles.header}>
@@ -76,10 +88,15 @@ function Result() {
           <Link to="/Filterpage"><img src={require(`${path}filter.png`)} className={styles.filterimg} alt="noimg"></img> </Link>
           
         </div>
-        
-        <img src={require(`./img/tagbar.png`)} className={styles.tagbar} alt="img"></img>
+
+        <img
+          src={require(`./img/tagbar.png`)}
+          className={styles.tagbar}
+          alt="img"
+        ></img>
 
         <div className={styles.sort}>
+
           <img src={require(`./img/sort.png`)} alt="img"></img>
           <select onChange={SET}>
             <option value="1">가까운 순 </option>
@@ -99,7 +116,7 @@ function Result() {
                 tag={data && data.tag_set}
                 shopname={data && data.shop}
                 likenum={data && data.likenum}
-                distance={data && data.likenum}
+                distance={data && data.distance}
                 price={data && data.price}
                 img={data && data.img}
               ></Product>
