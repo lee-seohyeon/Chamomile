@@ -9,7 +9,7 @@ function Product({ name, id, tag, shopname, likenum, distance, price, img }) {
       <div className={styles.tagandlike}>
         <div className={styles.tags}>
           {tag.map((t, i) => (
-            <Tag key={i} tag={t}></Tag>
+            <Tag key={i} tag={t.name}></Tag>
           ))}
         </div>
       </div>
