@@ -80,6 +80,7 @@ function Detail() {
           <div className={styles.box}>
             <div className={styles.keyword}>키워드</div>
             <div className={styles.tags}>
+              
               {data.tag_set
                 ? data.tag_set.map((t, i) => <Tag key={i} tag={t.name}></Tag>)
                 : ""}
