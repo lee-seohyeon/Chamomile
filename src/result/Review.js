@@ -22,9 +22,11 @@ function Review({ tag, shop }) {
       </div>
       <div className={styles.reviewbox}>
         <div className={styles.tags}>
+          <div className={styles.im}>#꾸덕</div>
           {tag
             ? tag.map((t, i) => <ReviewTag key={i} tag={t.name}></ReviewTag>)
             : ""}
+          <div className={styles.ima}>#견과류</div>
         </div>
       </div>
       <p className={styles.title}>이 가게 다른 메뉴 보기</p>
