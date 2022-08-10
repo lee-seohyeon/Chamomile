@@ -1,6 +1,8 @@
 
 .nav{
     z-index:1000;
+    max-width:450px;
+    min-width:100px;
     width:100%;
     background-color: white;
     position:fixed;
@@ -13,7 +15,7 @@
     flex-direction: column;
 }
 .home,.location,.search,.heart,.mypage{
-    font-size:1.3vw;
+    font-size:0.7rem;
     padding-top:0.4vh;
     padding-bottom:1vh;
     display:flex;
@@ -45,4 +47,9 @@
     align-items: center;
     justify-content:center;
     width:100%
+}
+
+body{
+    max-width: 450px;
+    min-width:100px;
 }

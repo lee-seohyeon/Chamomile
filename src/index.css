@@ -80,3 +80,8 @@ a:link {
   text-decoration: none;
   color: black;
  }
+ body{
+    margin:0;
+    max-width:450px;
+    min-width:100px;
+ }

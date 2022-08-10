@@ -12,10 +12,11 @@
     border-width: 2px;
     background-color: white;
     color:rgb(117, 117, 117);
-    height: 2.5vh;
+    height: 1.8rem;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom:0.5rem;
   }
   .link{
     display:flex;

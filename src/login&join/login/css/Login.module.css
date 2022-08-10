@@ -15,7 +15,7 @@
 .text{
     display: flex;
     justify-content: space-evenly;
-    font-size: 3.5vw;
+    font-size: 0.8rem;
     font-family: 'Noto Sans KR', sans-serif;
 }
 .input{
@@ -96,4 +96,8 @@ label{
 
 .joinyellow{
     color: #F9E183;
+}
+
+body{
+    width:100%
 }
