@@ -1,0 +1,9 @@
+.tagcontainer{
+    display: flex;
+    overflow-x:scroll;
+    
+}
+.tagone{
+    font-size:20px;
+    flex : 0 0 auto;
+}

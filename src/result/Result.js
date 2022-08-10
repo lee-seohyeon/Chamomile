@@ -6,10 +6,13 @@ import Product from "./Product";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Back from "../back/Back";
+import makeTagFilter from "./makeTagFilter";
+import TagFilter from "./TagFilter";
 const path = "./img/";
 function Result() {
   const { text } = useParams();
   const [keyword, setkeyword] = useState([]);
+  const [tagFilter, setTagFilter] = useState("");
   const getproducts = async () => {
     const response = await fetch(
       `http://api-chamomile.kro.kr/products/?name=${text}`
@@ -17,10 +20,8 @@ function Result() {
     const json = await response.json();
     likenum(json.data);
   };
-  useEffect(() => getproducts, []);
   function likenum(arr) {
     for (let x = 0; x < arr.length; x++) {
-      console.log(arr[x].name.length);
       if (arr[x].name.length > 7) {
         arr[x].name = arr[x].name.substring(0, 6) + "...";
       }
@@ -29,6 +30,18 @@ function Result() {
     }
     setkeyword(arr);
   }
+  const tagFiltering = (arr) => {
+    let result = [];
+    arr.forEach((one) => {
+      one.tag_set.forEach((tag) => {
+        console.log(tag);
+        if (tag.name === tagFilter) {
+          result.push(one);
+        }
+      });
+    });
+    setkeyword(result);
+  };
   function sorting(sort) {
     const sortarr = keyword.concat();
     if (sort === "1") {
@@ -57,10 +70,15 @@ function Result() {
       );
     }
   }
+  console.log(tagFilter);
   const SET = (e) => {
-    console.log(e.target.value);
     sorting(e.target.value);
   };
+  const tags = makeTagFilter(keyword);
+  useEffect(() => getproducts, []);
+  useEffect(() => {
+    tagFiltering(keyword);
+  }, [tagFilter]);
   return (
     <div className={styles.background}>
       <Navbar></Navbar>
@@ -82,12 +100,7 @@ function Result() {
             ></img>
           </div>
         </div>
-
-        <img
-          src={require(`./img/tagbar.png`)}
-          className={styles.tagbar}
-          alt="img"
-        ></img>
+        <TagFilter tags={tags} tagset={setTagFilter}></TagFilter>
         <div className={styles.sort}>
           <Link to="/Filterpage" className={styles.filterimg}>
             <img src={require(`${path}filter.png`)} alt="noimg"></img>{" "}
