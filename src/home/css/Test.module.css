@@ -7,13 +7,13 @@
     align-items: center;
     width: 90%;
     margin-top : 1vw;
-    margin-bottom : 3vw;
+    margin-bottom : 1.5rem;
   }
 .mbtitest,.random{
   font-family: 'Noto Sans KR', sans-serif;
   color:rgb(127,127,127);
   flex-basis:45%;
-  margin:1vw;
+  margin:0.5rem;
   margin-top: 0;
   display: flex;
   justify-content: center;
@@ -23,15 +23,17 @@
   border-radius:15px;
   background-color: white;
   padding:1.6vw;
+  height: 8rem;
+  width:20rem;
 }
 .mbtitest img, .random img{
-  padding-top: 1vw;
-  width: 4vw;
+  padding-top: 0.4rem;
+  width: 3.5rem;
 }
 .title{
-  font-size:1.5vw;
+  font-size:1rem;
   font-weight: bolder;
-  
+  margin-bottom:0.3rem;
 }
 .text{
   color:gray;
