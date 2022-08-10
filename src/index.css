@@ -21,34 +21,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 100px) {
 	body {
-		padding:0;
+
 	}
 }
+
+@media screen and (min-width:300px){
+    body{
+
+    }
+  }
+
+
 @media screen and (min-width:510px){
   body{
-    padding-left:15vw;
-    padding-right:15vw;
+
   }
 }
 @media screen and (min-width:690px){
     body{
-      padding-left:25vw;
-      padding-right:25vw;
+        /* padding-left:20vw;
+        padding-right:20vw; */
     }
 }
 @media screen and (min-width:850px){
   body{
-    padding-left:27vw;
-    padding-right:27vw;
+    /* padding-left:32vw;
+    padding-right:32vw; */
+    /* width:33vw;
+    height:10vw; */
   }
 }
-body{
+
+html{
 /* background-color: #F9E183 ; */
-  margin:0;
   font-family:'GmarketSansLight';
+  /* display: flex;
+  justify-content: center; */
+  /* height: 100%;
+  width: 100%; */
 }
+
 p{
   margin:0;
   padding:0;
