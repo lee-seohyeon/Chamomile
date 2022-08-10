@@ -1,7 +1,8 @@
 .inputdata{
-    width:100%;
+    width:15rem;
+    height:1rem;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size:15px;
+    font-size:1rem;
     padding: 2vw;
     margin:0.2vw;
     border-radius: 15px;
@@ -9,4 +10,5 @@
     border-style:solid;
     border-color: #F9E183 ;;
     margin-bottom: 7px;
+    
 }

@@ -20,10 +20,11 @@
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    border-radius:2.5vw;
+    border-radius:25px;
     padding:1.5vw;
-    width:80%;
+    width:77%;
     min-width:100px;
+    margin-top:20px;
 }
 .address{
     font-family: 'Noto Sans KR', sans-serif;
