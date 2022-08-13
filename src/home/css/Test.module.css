@@ -2,24 +2,22 @@
     padding:5px;
     display: flex;
     margin-top : 1vw;
-    margin-bottom : 1.5rem;
+    margin-bottom : 0.5rem;
     flex-direction: column;
   }
 .mbtitest,.random{
   color:rgb(127,127,127);
-  margin:0.5rem;
   margin-top: 0;
   display: flex;
   flex-direction: column;
-  background-color: white;
 }
-.mbtitest img, .random img{
+.flexcon img{
   padding-top: 0.4rem;
   width: 2.8rem;
-  margin-right: 0.5rem;
+  margin-right: 0.8rem;
 }
 .title{
-  font-size:0.7rem;
+  font-size:0.8rem;
   font-weight: bolder;
   margin-bottom:0.3rem;
 }
@@ -32,15 +30,19 @@
     display: flex;
     font-size:1rem;
     font-weight: 600;
+    margin-left: 1.8rem;
+    margin-bottom: 0.6rem;
 }
 
 .flexcon{
     display: flex;
+    margin-left: 1.5rem;
 }
 
 .subflexcon{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .line{
@@ -49,4 +51,13 @@
     border: none;
     margin: 0;
     margin-bottom: 0.8rem;
+}
+
+.subline{
+    background-color:#F2F2F2;
+    height: 0.15rem;
+    border: none;
+    margin: 0;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
 }

@@ -22,6 +22,7 @@ function Home() {
 					</header>
 
 					<Category></Category>
+
 					<Test></Test>
 
 					<Footer></Footer>

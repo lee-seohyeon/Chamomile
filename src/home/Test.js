@@ -17,6 +17,7 @@ function Test() {
 						</div>
 					</div>
 				</Link>
+				<hr className={styles.subline}></hr>
 				<Link to="/roulette" className={styles.random}>
 					<div className={styles.flexcon}>
 						<img src={require(`./img/bet.png`)} alt="d" />
@@ -28,6 +29,21 @@ function Test() {
 						</div>
 					</div>
 				</Link>
+			</div>
+			<hr className={styles.line}></hr>
+
+			<div className={styles.titletext}>사장님이세요?</div>
+
+			<div onClick={() => window.open("https://forms.gle/AVm6kxDwUcvHRP8x8", "_blank")}>
+				<div className={styles.flexcon}>
+					<img src={require(`./img/bet.png`)} alt="d" />
+					<div className={styles.subflexcon}>
+						<div className={styles.title}>내 가게 등록하기</div>
+						<div className={styles.text}>
+							<p>카모마일과 새로운 시작을 함께해요!</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</>
 	);
