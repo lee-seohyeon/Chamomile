@@ -1,65 +1,69 @@
-.category{
-    display:grid;
-    padding-top: 3vw;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr;
-    width: 90%;
-      align-items: center;
-  }
-  .option{
-    font-size:0.7rem;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 100%;
-    padding:0.3vw;
-    margin-bottom: 1.3rem;
-    margin-right: 0.5rem;
-    width:5rem;
-    height: 5rem;
-    
-  }
-  .img{
-    width:2.4rem;
-    padding:1vw;
-  }
+.category {
+	display: grid;
+	padding-top: 1vw;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	width: 90%;
+	align-items: center;
+}
+.option {
+	font-size: 0.7rem;
+	font-weight: 500;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 100%;
+	padding: 0.3vw;
+	margin-bottom: 1.3rem;
+	margin-right: 0.5rem;
+	width: 5rem;
+	height: 5rem;
+}
+.img {
+	width: 2.4rem;
+	padding: 1vw;
+}
 
-  .imgrice{
-    width:2.4rem;
-    padding:5px;
-    margin-bottom: 8px;
-    margin-top:4px;
-  }
+.imgrice {
+	width: 2.4rem;
+	padding: 5px;
+	margin-bottom: 8px;
+	margin-top: 4px;
+}
 
-  .imgegg{
-    width:2.4rem;
-    padding:5px;
-    margin-bottom: 3px;
-    margin-top:2px;
-  }
+.imgegg {
+	width: 2.4rem;
+	padding: 5px;
+	margin-bottom: 3px;
+	margin-top: 2px;
+}
 
-  .imgpar{
-    width:2.4rem;
-    padding:0px;
-    margin-bottom: 8px;
-    margin-top:8px;
-  }
-  .waffle{
-    width:2.4rem;
-    padding-bottom:8px;
-    padding-top:8px;
-  }
-  
+.imgpar {
+	width: 2.4rem;
+	padding: 0px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+.waffle {
+	width: 2.4rem;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
 
-  .imgscone{
-    width:2.4rem;
-    padding-bottom:0.45rem;
-  }
+.imgscone {
+	width: 2.4rem;
+	padding-bottom: 0.45rem;
+}
 
-.dom{
-    display: flex;
-    justify-content: center;
+.imgplus {
+	width: 2.2rem;
+	padding-bottom: 0.65rem;
+    padding-top: 0.5rem;
+}
+
+.dom {
+	display: flex;
+	justify-content: center;
 }

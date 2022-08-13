@@ -3,10 +3,10 @@
     width:95%;
     justify-content: space-between;
     align-items: center;
+    background-color: #EEEEEE;
 }
 .search{
     flex-basis:90%;
-    font-family:'GmarketSansLight';
     border-style:hidden;
     font-size: 15px;
     border-radius:20px;
@@ -14,6 +14,7 @@
     height:20%;
     color:darkgray;
     text-decoration:none;
+    background-color: #EEEEEE;
 }
 .search:focus{
   outline:none;
@@ -37,7 +38,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:white;
     border-radius: 30px;
     width:93%;
 }

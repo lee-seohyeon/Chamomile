@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Search from "./Search";
 import Category from "./Category";
 import Test from "./Test";
+import Banner from "./Banner";
 function Home() {
 	return (
 		<>
@@ -19,8 +20,13 @@ function Home() {
 							<div className={styles.titletext}>카모마일</div>
 						</div>
 						<Search></Search>
+                        <img
+								className={styles.alarm}
+								src={require("./img/alarm.png")}
+								alt="noimg"
+							/>
 					</header>
-
+                    <Banner></Banner>
 					<Category></Category>
 
 					<Test></Test>

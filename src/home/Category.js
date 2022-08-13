@@ -109,8 +109,8 @@ function Category() {
 
 					<Link to="/result/떡" className={styles.option}>
 						<img
-							src={require(`${path}ricecake.png`)}
-							className={styles.img}
+							src={require(`${path}moreview.png`)}
+							className={styles.imgplus}
 							alt="스콘"
 						/>
 						더보기

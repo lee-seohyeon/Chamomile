@@ -5,7 +5,6 @@
     padding-bottom:10vh;
     flex-direction:column;
     align-items: center;
-    background-image:url("../../../public/background.png");
   }
 .container{
   background-color: white;
@@ -58,7 +57,8 @@ select{
 }
 
 .hebox{
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    background-color: #EEEEEE;
     border-radius: 15px;
     padding:0px;
     padding-left: 5px;
