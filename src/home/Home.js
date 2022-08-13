@@ -18,17 +18,16 @@ function Home() {
 							/>
 							<div className={styles.titletext}>카모마일</div>
 						</div>
+						<Search></Search>
 					</header>
-					<Search></Search>
+
 					<Category></Category>
 					<Test></Test>
 
 					<Footer></Footer>
-                    <Navbar></Navbar>
+					<Navbar></Navbar>
 				</div>
-				
 			</div>
-            
 		</>
 	);
 }

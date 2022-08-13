@@ -1,17 +1,14 @@
 .searchbar{
-    margin-top:1vh;
-    margin-bottom: 0.5vh;
     display:flex;
-    width:90%;
+    width:50%;
   }
   .search{
-    font-family:'GmarketSansLight';
-    padding: 10px;
-    border-radius:30px;
+    font-family: 'Noto Sans KR';
+    padding: 0.2rem;
+    border-radius:0.5rem;
     width:100%;
     border-width: 2px;
-    background-color: white;
-    color:rgb(117, 117, 117);
+    background-color: #EEEEEE;
     height: 1.8rem;
     display:flex;
     justify-content: space-between;
@@ -25,6 +22,10 @@
   }
   .text{
     flex-basis:90%;
+    font-family: 'Noto Sans KR';
+    font-size: 0.8rem;
+    color: #545454;
+
   }
   .emo{
     padding-top:14px;
