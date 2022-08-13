@@ -19,6 +19,7 @@ import Write from "./result/Write";
 import Story from "./location/Story";
 import Boss from "./mypage/boss/Boss";
 import Filterpage from "./result/Filterpage"
+import Banner from "./home/Banner";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route element={<Story />} path="/story"></Route>
         <Route element={<Boss/>} path="/boss"></Route>
         <Route element={<Filterpage/>} path="/filterpage"></Route>
+        <Route element={<Banner/>} path="/banner"></Route>
       </Routes>
     </BrowserRouter>
   );

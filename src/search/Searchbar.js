@@ -3,7 +3,7 @@ import styles from "./css/Searchbar.module.css";
 import { Link } from "react-router-dom";
 function Searchbar({ place }) {
   if (place === "") {
-    place = "지금 먹고 싶은 디저트는?";
+    place = "지금 떠오르는 디저트를 검색!";
   }
   // 나중에 실시간 추천 검색어 뜨게 할려면 필요할 것 같아서 두기
   const [text, settext] = useState("");
@@ -32,7 +32,7 @@ function Searchbar({ place }) {
           autoFocus
         ></input>
 
-        {place === "지금 먹고 싶은 디저트는?" ? (
+        {place === "지금 떠오르는 디저트를 검색!" ? (
           <Link to={`/result/${text}`} className={styles.submit}>
             <img src={require(`./search.png`)} alt="s"></img>
           </Link>

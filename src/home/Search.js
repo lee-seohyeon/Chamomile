@@ -5,7 +5,7 @@ function Search() {
     <div className={styles.searchbar}>
       <Link to="/search" className={styles.link}>
         <div className={styles.search}>
-          <div className={styles.text}> 지금 먹고싶은 디저트는? </div>
+          <div className={styles.text}> 지금 떠오르는 디저트를 검색! </div>
           <div className={styles.emo}>
             <img src={require(`./img/search.png`)} alt="s"></img>
           </div>

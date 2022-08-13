@@ -11,9 +11,8 @@
 }
 header{
     display:flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    margin-top: 3px;
+
+    margin-top: 1rem;
 }
 .title{
     font-size:23px;
