@@ -1,6 +1,9 @@
 .tag{
     border-radius:10px;
-    color: white;
+    color: #91929B;
+    background-color: white;
+    border-color: #0000ff;
+    border-width: 5rem;
     padding:4px;
     text-align: center;
     font-size:2px;

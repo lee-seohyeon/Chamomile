@@ -57,12 +57,12 @@
 }
 
 .result {
-  font-size: 5vw;
+  font-size: 1.3rem;
   margin-bottom: 20px;
 }
 
 .title {
-  font-size: 6vw;
+  font-size: 1.6rem;
   text-align: center;
   flex-basis: 80%;
   font-family: "Noto Sans KR", sans-serif;

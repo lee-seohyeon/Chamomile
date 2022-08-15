@@ -4,9 +4,12 @@
     border-width: 0.1px;
     padding: 1vw;
     margin:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .name{
-    font-family: 'GmarketSansBold';
     font-weight:bolder;
     font-size:1.5vw;
     text-decoration: underline;
