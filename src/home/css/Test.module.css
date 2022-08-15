@@ -1,63 +1,75 @@
-.test{
-    padding:5px;
-    display: flex;
-    margin-top : 1vw;
-    margin-bottom : 0.5rem;
-    flex-direction: column;
-  }
-.mbtitest,.random{
-  color:rgb(127,127,127);
-  margin-top: 0;
-  display: flex;
-  flex-direction: column;
+.test {
+	padding: 5px;
+	display: flex;
+	margin-top: 1vw;
+	margin-bottom: 0.5rem;
+	flex-direction: column;
 }
-.flexcon img{
-  padding-top: 0.4rem;
-  width: 2.8rem;
-  margin-right: 0.8rem;
+.mbtitest,
+.random {
+	color: rgb(127, 127, 127);
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
 }
-.title{
-  font-size:0.8rem;
-  font-weight: bolder;
-  margin-bottom:0.3rem;
+.flexcon img {
+	padding-top: 0.4rem;
+	width: 2.8rem;
+	margin-right: 0.8rem;
 }
-.text{
-  color:gray;
-  font-size:1vw;
+.title {
+	font-size: 0.8rem;
+	font-weight: bolder;
+	margin-bottom: 0.3rem;
 }
-
-.titletext{
-    display: flex;
-    font-size:1rem;
-    font-weight: 600;
-    margin-left: 1.8rem;
-    margin-bottom: 0.6rem;
+.text {
+	color: gray;
+	font-size: 1vw;
 }
 
-.flexcon{
-    display: flex;
-    margin-left: 1.5rem;
+.titletext {
+	display: flex;
+	font-size: 1rem;
+	font-weight: 600;
+	margin-left: 1.8rem;
+	margin-bottom: 0.6rem;
 }
 
-.subflexcon{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.flexcon {
+	display: flex;
+	margin-left: 1.5rem;
 }
 
-.line{
-    background-color:#F2F2F2;
-    height: 0.7rem;
-    border: none;
-    margin: 0;
-    margin-bottom: 0.8rem;
+.subflexcon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.subline{
-    background-color:#F2F2F2;
-    height: 0.15rem;
-    border: none;
-    margin: 0;
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
+.line {
+	background-color: #f2f2f2;
+	height: 0.7rem;
+	border: none;
+	margin: 0;
+	margin-bottom: 0.8rem;
+}
+
+.subline {
+	background-color: #f2f2f2;
+	height: 0.15rem;
+	border: none;
+	margin: 0;
+	margin-top: 0.7rem;
+	margin-bottom: 0.7rem;
+}
+
+.flexcon2 img {
+	padding-top: 0.4rem;
+	width: 2.8rem;
+	margin-right: 0.8rem;
+}
+
+.flexcon2 {
+	display: flex;
+	margin-left: 1.9rem;
 }

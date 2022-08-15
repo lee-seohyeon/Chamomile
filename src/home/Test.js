@@ -20,7 +20,7 @@ function Test() {
 				<hr className={styles.subline}></hr>
 				<Link to="/roulette" className={styles.random}>
 					<div className={styles.flexcon}>
-						<img src={require(`./img/bet.png`)} alt="d" />
+						<img className={styles.storeimg} src={require(`./img/bet.png`)} alt="d" />
 						<div className={styles.subflexcon}>
 							<div className={styles.title}>디저트 룰렛</div>
 							<div className={styles.text}>
@@ -35,8 +35,8 @@ function Test() {
 			<div className={styles.titletext}>사장님이세요?</div>
 
 			<div onClick={() => window.open("https://forms.gle/AVm6kxDwUcvHRP8x8", "_blank")}>
-				<div className={styles.flexcon}>
-					<img src={require(`./img/bet.png`)} alt="d" />
+				<div className={styles.flexcon2}>
+					<img src={require(`./img/store.png`)} alt="d" />
 					<div className={styles.subflexcon}>
 						<div className={styles.title}>내 가게 등록하기</div>
 						<div className={styles.text}>
