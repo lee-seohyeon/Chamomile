@@ -107,13 +107,13 @@ function Category() {
 						와플/크로플
 					</Link>
 
-					<Link to="/result/떡" className={styles.option}>
+					<Link to="/result/요거트" className={styles.option}>
 						<img
 							src={require(`${path}moreview.png`)}
 							className={styles.imgplus}
 							alt="스콘"
 						/>
-						더보기
+						요거트(이미지필요)
 					</Link>
 				</div>
 			</div>
