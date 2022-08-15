@@ -23,7 +23,7 @@ function Result() {
   function likenum(arr) {
     for (let x = 0; x < arr.length; x++) {
       if (arr[x].name.length > 7) {
-        arr[x].name = arr[x].name.substring(0, 6) + "...";
+        arr[x].name = arr[x].name.substring(0, 8) + "...";
       }
       arr[x]["distance"] = (arr.length - x) * 10;
       arr[x]["reviewnum"] = x * 10;

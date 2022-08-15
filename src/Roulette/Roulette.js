@@ -30,40 +30,39 @@ function Roulette() {
     <div className={styles.background}>
       <div className={styles.container}>
         <div className={styles.header}>
-        <div className={styles.header}>
-                <Back className={styles.fake}></Back>
-                <div className={styles.title}>룰렛 게임</div>
-                <div className={styles.fake}></div>
-            </div>
+          <div className={styles.header}>
+            <Back className={styles.fake}></Back>
+            <div className={styles.title}>룰렛 게임</div>
+            <div className={styles.fake}></div>
+          </div>
         </div>
         <hr />
         <div className={styles.roulette}>
+          <div className={styles.button} onClick={handleSpinClick}>
+            <div className={styles.buttontext}>START</div>
+          </div>
+
           <Wheel
             mustStartSpinning={mustSpin}
             prizeNumber={prizeNumber}
             data={data}
-            outerBorderColor={["#f2f2f2"]}
-            outerBorderWidth={[2]}
-            innerBorderColor={["#f2f2f2"]}
+            outerBorderColor={["#FFBF00"]}
+            outerBorderWidth={[15]}
+            innerBorderColor={["#FFBF00"]}
+            innerBorderWidth={10}
             radiusLineColor={["#dedede"]}
-            radiusLineWidth={[0]}
+            radiusLineWidth={[1]}
             textColors={["#000000"]}
-            fontSize={[12]}
+            fontSize={[15]}
             perpendicularText={[true]}
-            backgroundColors={[
-              "rgb(255,199,0)",
-              "rgb(253,218,51)",
-              "rgb(255,239,105)",
-              "rgb(253,218,51)",
-            ]}
+            backgroundColors={["#FFFFFF", "#D9D9D9"]}
+            textDistance={80}
             onStopSpinning={() => {
               setMustSpin(false);
             }}
           />
         </div>
-        <button className={styles.button} onClick={handleSpinClick}>
-          SPIN
-        </button>
+
         <br />
         <div className={styles.result}>
           {!mustSpin ? data[prizeNumber].option : ""}
