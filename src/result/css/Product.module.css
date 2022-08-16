@@ -1,96 +1,91 @@
-.container{
-    width: 140px;
-    position:relative;
-    text-align: left;
-    /* box-shadow: 2px 2px 2px grey; */
-    border-width:0.5px;
-    margin: 10px;
-    padding:0px;
+.container {
+  width: 140px;
+  position: relative;
+  text-align: left;
+  /* box-shadow: 2px 2px 2px grey; */
+  border-width: 0.5px;
+  margin: 10px;
+  padding: 0px;
 }
-.img img{
-    width: 140px;
-    height:140px;
-    object-fit:cover;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+.img img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
-.img{
-    width: 130px;
-    margin:0;
+.img {
+  width: 130px;
+  margin: 0;
 }
-.tagandlike{
-    width: 90%;
-    position:absolute;
-    top: 110px;
-    left: 5px;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    margin:0;
+.tagandlike {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
 }
-.tags{
-    display:flex;
+.tags {
+  display: flex;
 }
-.price{
-    /* font-family: 'GmarketSansBold'; */
-    font-weight: 600;
+.price {
+  /* font-family: 'GmarketSansBold'; */
+  font-weight: 600;
 }
-.shopanddistance{
-    display: flex;
-    margin:0px;
-    padding:0px;
-    align-items: center;
+.shopanddistance {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
 }
-.distance{
-    border-left: solid;
-    border-width: 1px;
-    padding-left: 3px;
-    display: flex;
-    font-size:1px;
-    border-color:gray;
-    align-items: center;
+.distance {
+  border-left: solid;
+  border-width: 1px;
+  padding-left: 3px;
+  display: flex;
+  font-size: 1px;
+  border-color: gray;
+  align-items: center;
 }
-.distance img{
-    width: 12px;
-    height:9px;
+.distance img {
+  width: 12px;
+  height: 9px;
 }
-.name{
-
-    padding:0px;
+.name {
+  padding: 0px;
 }
-.shopname{
-    align-items: center;
-    justify-content: center;
-    font-size: 1px;
-    border-color: gray;
-    margin-right:5px;
+.shopname {
+  align-items: center;
+  justify-content: center;
+  font-size: 1px;
+  border-color: gray;
+  margin-right: 5px;
 }
-.distnum{
-    color: #FFB300;
-    margin-left:1px;
-    font-weight: bolder;
-    font-family: 'GmarketSansBold';
+.distnum {
+  color: #ffb300;
+  margin-left: 1px;
+  font-weight: bolder;
+  font-family: "GmarketSansBold";
 }
-.likenum{
-    font-size:13px;
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 500px;
+.likenum {
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500px;
 }
-.section{
-    padding-left:10px;
-    padding-right:10px;
-    
+.section {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.ch{
-    width: 15px;
-    margin-right: 2px;
+.ch {
+  width: 15px;
+  margin-right: 2px;
 }
 
-.floor{
-    display: flex;
-    justify-content: space-between;
+.floor {
+  display: flex;
+  justify-content: space-between;
 }

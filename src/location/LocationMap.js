@@ -29,8 +29,8 @@ function Location({ setData, setLocation }) {
       function displayMarker(place) {
         // 마커를 생성하고 지도에 표시합니다
 
-        var imageSrc = require(`../loading/flower-remove.png`), // 마커이미지의 주소입니다
-          imageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
+        var imageSrc = require(`./img/marker.png`), // 마커이미지의 주소입니다
+          imageSize = new kakao.maps.Size(36, 45), // 마커이미지의 크기입니다
           imageOption = { offset: new kakao.maps.Point(27, 69) };
         var markerImage = new kakao.maps.MarkerImage(
           imageSrc,
