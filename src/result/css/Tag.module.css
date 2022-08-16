@@ -1,12 +1,10 @@
-.tag{
-    border-radius:10px;
-    color: #91929B;
-    background-color: white;
-    border-color: #0000ff;
-    border-width: 5rem;
-    padding:4px;
-    text-align: center;
-    font-size:2px;
-    margin: 3px;
-
+.tag {
+  border-radius: 5px;
+  color: black;
+  background-color: #f2f2f2;
+  padding: 4px;
+  text-align: center;
+  font-size: 2px;
+  margin: 3px;
+  font-family: "Noto Sans KR", sans-serif;
 }

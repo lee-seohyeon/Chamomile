@@ -24,7 +24,7 @@ import { RecoilRoot } from "recoil";
 function App() {
   return (
     <RecoilRoot>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route element={<Result />} path="/result/:text"></Route>
           <Route element={<Detail />} path="/detail/:id"></Route>
