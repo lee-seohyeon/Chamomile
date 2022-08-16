@@ -109,11 +109,11 @@ function Category() {
 
 					<Link to="/result/요거트" className={styles.option}>
 						<img
-							src={require(`${path}moreview.png`)}
-							className={styles.imgplus}
+							src={require(`${path}yogurt.png`)}
+							className={styles.imgyogurt}
 							alt="스콘"
 						/>
-						요거트(이미지필요)
+						요거트
 					</Link>
 				</div>
 			</div>

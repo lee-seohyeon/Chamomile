@@ -4,35 +4,35 @@ import Input from "./Input";
 import Snslogin from "../Snslogin";
 import Navbar from "../../nav/Navbar";
 import { Link } from "react-router-dom";
+import Header from "../../header/Header";
 
 function Join() {
   return (
     <div className={styles.b}>
       <div className={styles.container}>
-        <div className={styles.head}>
-          <Back></Back>
-          <div className={styles.text}>
-            <p>맛있는 디저트와</p>
-            <p>더 가까워져요 :)</p>
-          </div>
-        </div>
-        <hr></hr>
-        <Snslogin inner={"join"}></Snslogin>
+      <Header headerName="회원가입"/>
+   
         <hr></hr>
         <div className={styles.startemail}>
-          <div className={styles.text2}>이메일로 시작하기</div>
+          <div className={styles.smalltitle}>이메일</div>
 
-          <Input className={styles.mom} data="nickname"></Input>
-          <div className={styles.but}>
+         
+          {/* <div className={styles.but}>
               <button className={styles.check}>중복확인</button>
-          </div>
+          </div> */}
           <Input data="email"></Input>
+          <div className={styles.smalltitle}>비밀번호</div>
           <Input data="password"></Input>
           <Input data="check"></Input>
+
+          <div className={styles.smalltitle}>닉네임</div>
+          <Input className={styles.mom} data="nickname"></Input>
         </div>
+
+
         <Link to="/mypage" className={styles.link}>
           <div className={styles.submit}>
-            확인
+            가입하기
             <Navbar></Navbar>
           </div>
         </Link>
