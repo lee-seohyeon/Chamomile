@@ -10,8 +10,8 @@ function Login() {
 	return (
 		<div className={styles.b}>
 			<div className={styles.container}>
-                <Header headerName="로그인"/>
-				
+				<Header headerName="로그인" />
+
 				<div className={styles.smalltitle}>이메일</div>
 				<div className={styles.input}>
 					<Input data={"inemail"}></Input>
@@ -32,16 +32,10 @@ function Login() {
 					<Link to="/join" className={styles.link}>
 						<div className={styles.findpassword}>회원가입</div>
 					</Link>
+					<Navbar></Navbar>
 				</div>
 
 				<Snslogin inner={"login"}></Snslogin>
-				<hr></hr>
-				<div className={styles.text}>
-					<Navbar></Navbar>
-					<div className={styles.join}>
-						<Link to="/join" className={styles.link}></Link>
-					</div>
-				</div>
 			</div>
 		</div>
 	);

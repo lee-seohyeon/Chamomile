@@ -1,14 +1,11 @@
-.inputdata{
-    width:15rem;
-    height:1rem;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size:1rem;
-    padding: 2vw;
-    margin:0.2vw;
-    border-radius: 15px;
-    border-width: 2px;
-    border-style:solid;
-    border-color: #F9E183 ;;
-    margin-bottom: 7px;
-    
+.inputdata {
+	width: 95%;
+	height: vh;
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	padding: 5px;
+	border-radius: 0.5rem;
+	border-style: solid;
+	border-color: #e0e0e0;
+	margin-bottom: 1.3rem;
 }
