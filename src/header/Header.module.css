@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+.title{
+    font-size: 1.5rem;
+    text-align: center;
+    flex-basis: 83%;
+    font-weight: 500;
+}
+
+.titletest{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+}

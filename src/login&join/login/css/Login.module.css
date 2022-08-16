@@ -1,102 +1,74 @@
-.b{
-    padding-top: 30px;
-    padding-left:30px;
-    padding-right:30px;
-    padding-bottom:30vh;
+.b {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30vh;
 }
 
-.container{
-    background-color: white;
-    border-radius:25px;
-    padding:4vw;
+.container {
+	border-radius: 25px;
+	padding: 4vw;
 }
 
-.text{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 0.8rem;
-    font-family: 'Noto Sans KR', sans-serif;
+.text {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 0.8rem;
 }
-.input{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    padding-bottom: 0;
+.input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 0;
 }
 
-.submit{
-    font-size: 15px;
-    border-radius: 25px;
-    padding: 10px;
-    background-color: #F9E183 ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:2vh;
-    margin-bottom: 2vh;
-    font-family: 'Noto Sans KR', sans-serif;
+.submit {
+	font-size: 1rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	background-color: #fcbd00;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	color: white;
 }
-.find{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top:2vh;
-    margin-bottom:2vh;
-    font-family: 'Noto Sans KR', sans-serif;
+.find {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	font-family: "Noto Sans KR", sans-serif;
 }
-.link{
-    text-decoration: none;
-    color:black;
-}
-
-.back{
-    float:left;
+.link {
+	text-decoration: none;
+	color: black;
 }
 
-.title{
-    font-size: 27px;
-    text-align: center;
-    flex-basis: 80%;
-    color: #F9E183;
-    font-family: 'GmarketSansBold';
-    margin-left: 4px;
+.emailcheck {
+	margin: 0;
+	margin-top: 20px;
 }
 
-.header{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-bottom: 10px;
+label {
+	color: rgb(127, 127, 127);
 }
 
-.fake{
-    flex-basis:10%;
+.findemail,
+.findpassword {
+	color: rgb(127, 127, 127);
 }
 
-.emailcheck{
-    margin: 0;
-    margin-top: 20px;
+body {
+	width: 100%;
+}
+
+.smalltitle{
+    margin-bottom: 0.5rem;
 }
 
 .emailsave{
-    font-family: 'Noto Sans KR', sans-serif;
-    margin-left: 11px;
+    margin-bottom: 2rem;
 }
 
-label{
-    color:rgb(127, 127, 127);
-}
-
-.findemail, .findpassword{
-    color:rgb(127, 127, 127); 
-}
-
-
-.joinyellow{
-    color: #F9E183;
-}
-
-body{
-    width:100%
-}

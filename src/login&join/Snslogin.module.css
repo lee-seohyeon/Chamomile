@@ -1,23 +1,29 @@
-.background{
-    padding-bottom:100vh;
+.background {
+	padding-bottom: 100vh;
 }
-.title{
-    font-size:20px;
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    margin-bottom: 15px;
+.title {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 5rem;
 }
-.logos{
-    margin-top:1vw;
-    display:flex;
-    justify-content: space-evenly;
+.logos {
+	margin-top: 1vw;
+	display: flex;
+	justify-content: space-evenly;
 }
-.kakao,.naver,.google, .apple{
-    display:flex;
-    text-align: center;
-    flex-direction: column;
-    font-family: 'Noto Sans KR', sans-serif;
+.kakao,
+.naver,
+.google,
+.apple {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	font-family: "Noto Sans KR", sans-serif;
 }
-.kakao img, .naver img, .google img,.apple img{
-    width:50px;
+.kakao img,
+.naver img,
+.google img,
+.apple img {
+	width: 50px;
 }
