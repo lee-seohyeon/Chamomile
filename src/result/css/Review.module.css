@@ -1,80 +1,80 @@
-.title{
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 500;
-    text-decoration: underline #F9E183 5px;
+.title {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
+  text-decoration: underline #f9e183 5px;
 }
 
-.pencilimg{
-    width:10px;
-    height: 10px;
-    margin-right: 4px;
+.pencilimg {
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
 }
 
-.write{
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1px;
+.write {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1px;
 }
 
-.writebox{
-    display: flex;
-    flex-direction: row;
-    border: solid rgb(127, 127, 127) 1px;
-    border-radius: 15px;
-    padding:4px;
-    align-items: center;
+.writebox {
+  display: flex;
+  flex-direction: row;
+  border: solid rgb(127, 127, 127) 1px;
+  border-radius: 15px;
+  padding: 4px;
+  align-items: center;
 }
 
-.titlebox{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 10px;
+.titlebox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-.reviewbox{
-    background-color: rgba(127, 127, 127, 0.187);
-    padding:20px;
-    margin-bottom: 25px;
+.reviewbox {
+  background-color: rgba(127, 127, 127, 0.187);
+  padding: 20px;
+  margin-bottom: 25px;
 }
 
-.tags{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 0px;
+.tags {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0px;
 }
 
-.anotherimg{
-    width:145px;
+.anotherimg {
+  width: 145px;
 }
 
-.anotherimgbox{
-    margin-top: 20px;
-    display: flex;
-    width:100%;
-    overflow:scroll;
+.anotherimgbox {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  overflow: scroll;
 }
-.im{
-    margin-top:50px;
-    height: 30px;
-    width:30px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-size:1px;
-    border-radius: 100%;
-    background-color: #A37B4B;
-    color:white;
+.im {
+  margin-top: 50px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1px;
+  border-radius: 100%;
+  background-color: #a37b4b;
+  color: white;
 }
-.ima{
-    margin-top:35px;
-    height: 45px;
-    width:45px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-size:1px;
-    border-radius: 100%;
-    background-color: #6A3B04;
-    color:white;
+.ima {
+  margin-top: 35px;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1px;
+  border-radius: 100%;
+  background-color: #6a3b04;
+  color: white;
 }

@@ -62,11 +62,19 @@ function Navbar() {
             setNav("search");
           }}
         >
-          <img
-            src={require(`${path}search.png`)}
-            className={styles.img}
-            alt="홈"
-          ></img>
+          {nav === "search" ? (
+            <img
+              src={require(`${path}pressedsearch.png`)}
+              className={styles.img}
+              alt="홈"
+            ></img>
+          ) : (
+            <img
+              src={require(`${path}search.png`)}
+              className={styles.img}
+              alt="홈"
+            ></img>
+          )}
           <div className={styles.search}>검색</div>
         </Link>
 

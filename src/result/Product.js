@@ -6,13 +6,7 @@ function Product({ name, id, tag, shopname, likenum, distance, price, img }) {
       <div className={styles.img}>
         <img src={img} alt="alt"></img>
       </div>
-      <div className={styles.tagandlike}>
-        <div className={styles.tags}>
-          {tag.map((t, i) => (
-            <Tag key={i} tag={t.name}></Tag>
-          ))}
-        </div>
-      </div>
+
       <div className={styles.section}>
         <div className={styles.shopanddistance}>
           <div className={styles.shopname}>{shopname}</div>
@@ -32,6 +26,13 @@ function Product({ name, id, tag, shopname, likenum, distance, price, img }) {
               alt="noimg"
             ></img>
             {likenum}
+          </div>
+        </div>
+        <div className={styles.tagandlike}>
+          <div className={styles.tags}>
+            {tag.map((t, i) => (
+              <Tag key={i} tag={t.name}></Tag>
+            ))}
           </div>
         </div>
       </div>
