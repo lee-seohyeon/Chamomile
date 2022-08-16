@@ -1,4 +1,3 @@
-import Back from "../../back/Back";
 import styles from "./css/Login.module.css";
 import Input from "./Input";
 import Snslogin from "../Snslogin";

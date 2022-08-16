@@ -3,14 +3,11 @@
 	justify-content: space-between;
 }
 .b {
-	padding-top: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
 	padding-bottom: 20vh;
 }
 .container {
-	background-color: white;
-	border-radius: 25px;
 	padding: 4vw;
 }
 .text {
@@ -72,4 +69,21 @@
 
 .title {
 	font-size: 1.6rem;
+}
+
+.smalltitle2 {
+	margin-top: 1rem;
+}
+
+.smalltitle2,
+.smalltitle {
+	margin-bottom: 0.3rem;
+}
+
+.sametest{
+    background-color: #BAB8B5;
+    width: 20%;
+    border-radius: 1rem;
+    color: white;
+    padding-left: 4px;
 }
