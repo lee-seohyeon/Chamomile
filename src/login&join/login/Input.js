@@ -2,7 +2,7 @@ import styles from "./css/Input.module.css"
 function Input({data}){
     let place="";
     if (data==="nickname"){
-        place="닉네임";
+        place="닉네임 입력";
     }
     else if(data==="email"){
         place="이메일";

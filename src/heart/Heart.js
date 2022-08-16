@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "../header/Header";
 import Navbar from "../nav/Navbar";
 import styles from "./css/Heart.module.css";
 
@@ -7,7 +7,7 @@ function Heart() {
   return (
     <div className={styles.background}>
         <div className={styles.container}>
-            <Header></Header>
+            <Header headerName="찜한 상품"/>
             <Navbar></Navbar>
 
             <div className={styles.imgcontainer}>

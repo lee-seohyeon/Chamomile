@@ -1,72 +1,89 @@
-.head{
-    display:flex;
-    justify-content: space-between;
+.head {
+	display: flex;
+	justify-content: space-between;
 }
-.b{
-    padding-top: 30px;
-    padding-left:30px;
-    padding-right:30px;
-    padding-bottom:20vh;
-    
+.b {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20vh;
 }
-.container{
-    background-color: white;
-    border-radius:25px;
-    padding:4vw;
+.container {
+	padding: 4vw;
 }
-.text{
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'yg-jalnan';
-    color:#F9E183;;
-}
-.startemail{ 
-    width:100;
-    padding:1vw;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-.submit{
-    font-size: 15px;
-    border-radius: 25px;
-    padding: 10px;
-    background-color: #F9E183 ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-.gojoin{
-    margin-top:20px;
-    display:flex;
-    justify-content: center;
-    font-size:15px;
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.text2{
-    font-size:15px;
-    text-align: center;
-    margin-bottom: 15px;
+.startemail {
+	width: 100;
+	padding: 1vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: "Noto Sans KR", sans-serif;
 }
-.check{
-    width:60px;
-    height:30px;
-    border-style:none;
-    background-color: rgb(217,217,217);
-    border-radius:100px;
-    font-size:10px;
-    padding:6px;
-    position: absolute;
-    bottom:340px;
-    left: 260px;
+.submit {
+	font-size: 1rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	background-color: #fcbd00;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	font-family: "Noto Sans KR", sans-serif;
+	color: white;
+}
+.gojoin {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
 }
 
+.text2 {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.check {
+	width: 60px;
+	height: 30px;
+	border-style: none;
+	background-color: rgb(217, 217, 217);
+	border-radius: 100px;
+	font-size: 10px;
+	padding: 6px;
+	position: absolute;
+	bottom: 340px;
+	left: 260px;
+}
 
-.mom{
-    position: relative;
+.mom {
+	position: relative;
+}
+
+.title {
+	font-size: 1.6rem;
+}
+
+.smalltitle2 {
+	margin-top: 1rem;
+}
+
+.smalltitle2,
+.smalltitle {
+	margin-bottom: 0.3rem;
+}
+
+.sametest{
+    background-color: #BAB8B5;
+    width: 20%;
+    border-radius: 1rem;
+    color: white;
+    padding-left: 4px;
 }
