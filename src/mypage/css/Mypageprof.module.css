@@ -1,0 +1,42 @@
+.img{
+    width:70px;
+    margin-bottom: 10px;
+    margin-right: 1rem;
+}
+
+.loginimg{
+    display: flex;
+    width: 95%;
+}
+
+.logintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.emial{
+    font-size: 0.8rem;
+    color: #BAB8B5;
+}
+
+.bar{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.bardom img{
+    width: 2rem;
+}
+
+.bardom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

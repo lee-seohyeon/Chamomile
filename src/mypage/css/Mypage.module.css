@@ -7,15 +7,12 @@
     padding-bottom:40vh;
 }
 .container{
-    margin:30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 25px;
-    width: 78%;
+    width: 90%;
 }
+
 .title{
     flex-basis:80%;
     width:100%;

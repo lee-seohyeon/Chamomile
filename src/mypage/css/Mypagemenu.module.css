@@ -1,50 +1,41 @@
-.content{
-    color: rgb(0, 0, 0);
-    font-size:15px;
-    width:100%;
+.content {
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	width: 100%;
 }
 
-.img{
-    width:70px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+.menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+	border-radius: 40px;
+	font-family: "Noto Sans KR", sans-serif;
 }
 
-.menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 10px;
-    border-radius: 40px;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-.menu img{
-    padding: 20px;
+.menu img {
+	padding: 20px;
 }
 
-.postgo{
-    color: rgb(127, 127, 127);
+.postgo {
+	color: rgb(127, 127, 127);
 }
 
-.container{
-    width:95%;
+.container {
+	width: 95%;
 }
 
-.line{
-    color: rgb(127, 127, 127);
-    border-style: solid;
-    border-width: 0.1px;
-    margin-top:0px;
-}   
-
-.loginimg{
-    display: flex;
-    align-items: center;
-    margin-bottom: 25px;
-    flex-direction: column;
-    font-family: 'Noto Sans KR', sans-serif;
+.line {
+	color: rgb(127, 127, 127);
+	border-style: solid;
+	border-width: 0.1px;
+	margin-top: 0px;
 }
 
-.name{
-    text-decoration: underline 5px #F9E183;
+.loginimg {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+	flex-direction: column;
+	font-family: "Noto Sans KR", sans-serif;
 }
