@@ -5,12 +5,14 @@ function Mypagemenu(props) {
 	const path = "./img/";
 	return (
 		<>
-			<div className={styles.container}>
-				<div className={styles.menu}>
-					<div className={styles.content}>{props.title}</div>
-					<div className={styles.postgo}> &gt; </div>
+			<div className={styles.dom}>
+				<div className={styles.container}>
+					<div className={styles.menu}>
+						<div className={styles.content}>{props.title}</div>
+						<div className={styles.postgo}> &gt; </div>
+					</div>
+					<hr className={styles.line}></hr>
 				</div>
-				<hr className={styles.line}></hr>
 			</div>
 		</>
 	);

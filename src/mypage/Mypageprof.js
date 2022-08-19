@@ -8,7 +8,7 @@ const Mypageprof = () => {
 			<div className={styles.loginimg}>
 				<img
 					src={require(`${path}prof.png`)}
-					className={styles.img}
+					className={styles.profimg}
 					alt="noimg"
 				></img>
 				<div className={styles.logintext}>
