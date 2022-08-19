@@ -4,7 +4,6 @@ import styles from "./css/Sales.module.css"
 const Sales = () => {
 	return (
 		<>
-			<div>Sales</div>
 			<div className={styles.floor}>
 				<div className={styles.subtext}>가게 이름</div>
 				<div className={styles.info}>카모마일</div>
