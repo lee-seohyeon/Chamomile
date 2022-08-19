@@ -8,9 +8,10 @@ import { Link } from "react-router-dom";
 function Mypage() {
 	return (
 		<div className={styles.background}>
+            <Navbar />
 			<div className={styles.container}>
 				<Header headerName="마이페이지" />
-				<Navbar />
+				
 
 				<Mypageprof />
 

@@ -1,16 +1,11 @@
-.background{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    padding-bottom:40vh;
+.container {
+	border-radius: 25px;
+	padding: 4vw;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
+
+.background{
+        padding-left: 15px;
+        padding-right: 15px;
 }
 
 .title{
