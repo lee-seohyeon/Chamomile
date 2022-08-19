@@ -24,7 +24,10 @@ function Login() {
 					<input type="checkbox" id="emailcheck"></input>
 					<label htmlFor="emailcheck">이메일 저장</label>
 				</div>
+
+                <Link to="/mypage">
 				<div className={styles.submit}>로그인</div>
+                </Link>
 				<div className={styles.find}>
 					<div className={styles.findemail}>이메일 찾기</div>|{" "}
 					<div className={styles.findpassword}>비밀번호 찾기</div> |{" "}

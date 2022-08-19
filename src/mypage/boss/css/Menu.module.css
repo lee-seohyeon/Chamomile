@@ -1,0 +1,48 @@
+
+.imgbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.addiconimg{
+    width: 20px;
+    height: 18px;
+}
+
+.addbox{
+    display: flex;
+    border: #FFC700 2px solid;
+    border-radius: 15px;
+    align-items: center;
+    padding: 3px;
+    width: 4.5rem;
+}
+
+.subtitlebox{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.bossimg{
+    width: 140px;
+}
+
+.subtext{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.subtext2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    margin-right: 45px;
+}
+
+.add{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+}
