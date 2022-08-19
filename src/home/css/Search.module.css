@@ -1,33 +1,33 @@
-.searchbar{
-    display:flex;
-    width:50%;
-  }
-  .search{
-    font-family: 'Noto Sans KR';
-    padding: 0.2rem;
-    border-radius:0.5rem;
-    width:100%;
-    background-color: #EEEEEE;
-    height: 1.4rem;
-    display:flex;
-    align-items: center;
-  }
-  .link{
-    display:flex;
-    width:100%;
-    text-decoration:none;
-  }
-  .text{
-    flex-basis:90%;
-    font-family: 'Noto Sans KR';
-    font-size: 0.8rem;
-    color: #545454;
-
-  }
-  .emo{
-    padding-top:14px;
-    flex-basis:10%;
-  }
-  .emo img{
-    width: 100%;
-  }
+.searchbar {
+	display: flex;
+	width: 60%;
+}
+.search {
+	font-family: "Noto Sans KR";
+	padding: 0.2rem;
+	border-radius: 0.5rem;
+	width: 100%;
+	background-color: #eeeeee;
+	height: 1.4rem;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+}
+.link {
+	display: flex;
+	width: 100%;
+	text-decoration: none;
+}
+.text {
+	font-family: "Noto Sans KR";
+	font-size: 0.8rem;
+	color: #545454;
+	padding-right: 2.5rem;
+}
+.emo {
+	padding-top: 14px;
+	flex-basis: 10%;
+}
+.emo img {
+	width: 1.4rem;
+}
