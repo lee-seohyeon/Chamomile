@@ -20,6 +20,7 @@ import Story from "./location/Story";
 import Boss from "./mypage/boss/Boss";
 import Filterpage from "./result/Filterpage";
 import Banner from "./home/Banner";
+import Sales from "./mypage/boss/Sales";
 import { RecoilRoot } from "recoil";
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route element={<Boss />} path="/boss"></Route>
           <Route element={<Filterpage />} path="/filterpage"></Route>
           <Route element={<Banner />} path="/banner"></Route>
+          <Route element={<Sales />} path="/sales"></Route>
         </Routes>
       </BrowserRouter>
     </RecoilRoot>
